@@ -1,0 +1,13 @@
+{
+  "dataset_id": "tgvmax",
+  "metas": {
+    "default": {
+      "title": "Disponibilité à 30 jours de places MAX JEUNE et MAX SENIOR ouvertes à la réservation",
+      "license": "Open Database License (ODbL)",
+      "modified": "2026-10-30T05:23:06+00:00",
+      "data_processed": "2026-10-30T05:23:06+00:00",
+      "records_count": 490563,
+      "publisher": "SNCF Voyageurs"
+    }
+  }
+}

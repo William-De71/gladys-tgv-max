@@ -1,0 +1,1597 @@
+[
+  {
+    "origine_iata": "BEBMI",
+    "origine": "BRUXELLES MIDI",
+    "count(*)": 2157
+  },
+  {
+    "origine_iata": "CHAGL",
+    "origine": "VALLORBE",
+    "count(*)": 403
+  },
+  {
+    "origine_iata": "CHAJD",
+    "origine": "ZURICH HB",
+    "count(*)": 524
+  },
+  {
+    "origine_iata": "CHAJF",
+    "origine": "LAUSANNE",
+    "count(*)": 425
+  },
+  {
+    "origine_iata": "CHAJP",
+    "origine": "BASEL SBB",
+    "count(*)": 551
+  },
+  {
+    "origine_iata": "CHGVA",
+    "origine": "GENEVE CORNAVIN",
+    "count(*)": 769
+  },
+  {
+    "origine_iata": "DEAGB",
+    "origine": "AUGSBURG HBF",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "DEANL",
+    "origine": "LAHR SCHWARZW",
+    "count(*)": 92
+  },
+  {
+    "origine_iata": "DEBEG",
+    "origine": "MUNCHEN HBF",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "DEFGB",
+    "origine": "FREIBURG (BREISGAU) HBF",
+    "count(*)": 134
+  },
+  {
+    "origine_iata": "DEFRH",
+    "origine": "FRANKFURT AM MAIN HBF",
+    "count(*)": 1162
+  },
+  {
+    "origine_iata": "DEKLT",
+    "origine": "KAISERSLAUTERN HBF",
+    "count(*)": 525
+  },
+  {
+    "origine_iata": "DEMHG",
+    "origine": "MANNHEIM HBF",
+    "count(*)": 1173
+  },
+  {
+    "origine_iata": "DEQHD",
+    "origine": "HEIDELBERG HBF",
+    "count(*)": 7
+  },
+  {
+    "origine_iata": "DEQKA",
+    "origine": "KARLSRUHE HBF",
+    "count(*)": 1212
+  },
+  {
+    "origine_iata": "DEQUL",
+    "origine": "ULM HBF",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "DERSH",
+    "origine": "RINGSHEIM EUROPA PARK",
+    "count(*)": 134
+  },
+  {
+    "origine_iata": "DESBK",
+    "origine": "SAARBRUECKEN/SARREBRUCK",
+    "count(*)": 530
+  },
+  {
+    "origine_iata": "DESGT",
+    "origine": "STUTTGART HBF",
+    "count(*)": 507
+  },
+  {
+    "origine_iata": "DEZCC",
+    "origine": "BADEN BADEN",
+    "count(*)": 360
+  },
+  {
+    "origine_iata": "DEZPA",
+    "origine": "OFFENBURG",
+    "count(*)": 155
+  },
+  {
+    "origine_iata": "ESBST",
+    "origine": "BARCELONA SANTS",
+    "count(*)": 419
+  },
+  {
+    "origine_iata": "ESFIR",
+    "origine": "FIGUERES VILAFANT",
+    "count(*)": 419
+  },
+  {
+    "origine_iata": "ESGRO",
+    "origine": "GIRONA",
+    "count(*)": 419
+  },
+  {
+    "origine_iata": "FRAAW",
+    "origine": "UZERCHE",
+    "count(*)": 830
+  },
+  {
+    "origine_iata": "FRABA",
+    "origine": "DIJON VILLE",
+    "count(*)": 4320
+  },
+  {
+    "origine_iata": "FRABG",
+    "origine": "BESANCON VIOTTE",
+    "count(*)": 271
+  },
+  {
+    "origine_iata": "FRACE",
+    "origine": "DOLE VILLE",
+    "count(*)": 653
+  },
+  {
+    "origine_iata": "FRACG",
+    "origine": "DAX",
+    "count(*)": 1612
+  },
+  {
+    "origine_iata": "FRACL",
+    "origine": "ANGERS SAINT LAUD",
+    "count(*)": 4345
+  },
+  {
+    "origine_iata": "FRACN",
+    "origine": "SAUMUR",
+    "count(*)": 1208
+  },
+  {
+    "origine_iata": "FRACR",
+    "origine": "LAVAL",
+    "count(*)": 1570
+  },
+  {
+    "origine_iata": "FRADE",
+    "origine": "METZ VILLE",
+    "count(*)": 1976
+  },
+  {
+    "origine_iata": "FRADI",
+    "origine": "DUNKERQUE",
+    "count(*)": 148
+  },
+  {
+    "origine_iata": "FRADJ",
+    "origine": "LILLE (intramuros)",
+    "count(*)": 1182
+  },
+  {
+    "origine_iata": "FRADM",
+    "origine": "TOURCOING",
+    "count(*)": 20
+  },
+  {
+    "origine_iata": "FRADP",
+    "origine": "ROUBAIX",
+    "count(*)": 20
+  },
+  {
+    "origine_iata": "FRAEA",
+    "origine": "CALAIS VILLE",
+    "count(*)": 1
+  },
+  {
+    "origine_iata": "FRAEB",
+    "origine": "BOULOGNE VILLE",
+    "count(*)": 143
+  },
+  {
+    "origine_iata": "FRAEE",
+    "origine": "PAU",
+    "count(*)": 1417
+  },
+  {
+    "origine_iata": "FRAEF",
+    "origine": "HENDAYE",
+    "count(*)": 1117
+  },
+  {
+    "origine_iata": "FRAEG",
+    "origine": "STRASBOURG",
+    "count(*)": 5731
+  },
+  {
+    "origine_iata": "FRAEJ",
+    "origine": "COLMAR",
+    "count(*)": 1682
+  },
+  {
+    "origine_iata": "FRAEK",
+    "origine": "MULHOUSE VILLE",
+    "count(*)": 3857
+  },
+  {
+    "origine_iata": "FRAES",
+    "origine": "AVIGNON CENTRE",
+    "count(*)": 408
+  },
+  {
+    "origine_iata": "FRAET",
+    "origine": "LE MANS",
+    "count(*)": 3768
+  },
+  {
+    "origine_iata": "FRAEZ",
+    "origine": "LE HAVRE",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "FRAFJ",
+    "origine": "ALBI VILLE",
+    "count(*)": 4
+  },
+  {
+    "origine_iata": "FRAFW",
+    "origine": "TOURS",
+    "count(*)": 964
+  },
+  {
+    "origine_iata": "FRAGF",
+    "origine": "AGEN",
+    "count(*)": 1504
+  },
+  {
+    "origine_iata": "FRAGQ",
+    "origine": "LIMOGES BENEDICTINS",
+    "count(*)": 2297
+  },
+  {
+    "origine_iata": "FRAGR",
+    "origine": "MODANE",
+    "count(*)": 569
+  },
+  {
+    "origine_iata": "FRAIE",
+    "origine": "AIX EN PROVENCE TGV",
+    "count(*)": 4759
+  },
+  {
+    "origine_iata": "FRAMA",
+    "origine": "ALBI MADELEINE",
+    "count(*)": 4
+  },
+  {
+    "origine_iata": "FRANG",
+    "origine": "ANGOULEME",
+    "count(*)": 1128
+  },
+  {
+    "origine_iata": "FRARM",
+    "origine": "ARGELES SUR MER",
+    "count(*)": 8
+  },
+  {
+    "origine_iata": "FRARV",
+    "origine": "ARVANT",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRAUR",
+    "origine": "AURILLAC",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRAVG",
+    "origine": "AVIGNON TGV",
+    "count(*)": 4870
+  },
+  {
+    "origine_iata": "FRBDT",
+    "origine": "RETHEL",
+    "count(*)": 253
+  },
+  {
+    "origine_iata": "FRBES",
+    "origine": "BREST",
+    "count(*)": 1321
+  },
+  {
+    "origine_iata": "FRBFO",
+    "origine": "VITRY LE FRANCOIS",
+    "count(*)": 104
+  },
+  {
+    "origine_iata": "FRBHA",
+    "origine": "COMMERCY",
+    "count(*)": 683
+  },
+  {
+    "origine_iata": "FRBIQ",
+    "origine": "BIARRITZ",
+    "count(*)": 1119
+  },
+  {
+    "origine_iata": "FRBOJ",
+    "origine": "BORDEAUX ST JEAN",
+    "count(*)": 6300
+  },
+  {
+    "origine_iata": "FRBOU",
+    "origine": "BOURGES",
+    "count(*)": 990
+  },
+  {
+    "origine_iata": "FRBQT",
+    "origine": "FORBACH",
+    "count(*)": 307
+  },
+  {
+    "origine_iata": "FRBVE",
+    "origine": "BRIVE LA GAILLARDE",
+    "count(*)": 2334
+  },
+  {
+    "origine_iata": "FRBZR",
+    "origine": "BEZIERS",
+    "count(*)": 3898
+  },
+  {
+    "origine_iata": "FRCCF",
+    "origine": "CARCASSONNE",
+    "count(*)": 2303
+  },
+  {
+    "origine_iata": "FRCCY",
+    "origine": "CULMONT CHALINDREY",
+    "count(*)": 365
+  },
+  {
+    "origine_iata": "FRCDC",
+    "origine": "CAPDENAC",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRCFE",
+    "origine": "CLERMONT FERRAND",
+    "count(*)": 1754
+  },
+  {
+    "origine_iata": "FRCHR",
+    "origine": "CHATEAUROUX",
+    "count(*)": 2275
+  },
+  {
+    "origine_iata": "FRCKH",
+    "origine": "CROIX WASQUEHAL",
+    "count(*)": 20
+  },
+  {
+    "origine_iata": "FRCMF",
+    "origine": "CHAMBERY CHALLES LES EAUX",
+    "count(*)": 1190
+  },
+  {
+    "origine_iata": "FRCRE",
+    "origine": "CREST",
+    "count(*)": 14
+  },
+  {
+    "origine_iata": "FRCVU",
+    "origine": "RANG DU FLIERS VERTON BERCK",
+    "count(*)": 41
+  },
+  {
+    "origine_iata": "FRDHT",
+    "origine": "VERSAILLES CHANTIERS",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "FRDIE",
+    "origine": "DIE",
+    "count(*)": 14
+  },
+  {
+    "origine_iata": "FRDJU",
+    "origine": "MASSY TGV",
+    "count(*)": 4045
+  },
+  {
+    "origine_iata": "FRDOL",
+    "origine": "DOL DE BRETAGNE",
+    "count(*)": 252
+  },
+  {
+    "origine_iata": "FREAH",
+    "origine": "CHAMPAGNE ARDENNE TGV",
+    "count(*)": 2155
+  },
+  {
+    "origine_iata": "FREAJ",
+    "origine": "MEUSE TGV",
+    "count(*)": 4884
+  },
+  {
+    "origine_iata": "FREAM",
+    "origine": "LORRAINE TGV",
+    "count(*)": 1972
+  },
+  {
+    "origine_iata": "FRECO",
+    "origine": "QUIMPERLE",
+    "count(*)": 702
+  },
+  {
+    "origine_iata": "FREFN",
+    "origine": "ANCENIS",
+    "count(*)": 45
+  },
+  {
+    "origine_iata": "FREGR",
+    "origine": "PORNICHET",
+    "count(*)": 116
+  },
+  {
+    "origine_iata": "FREGS",
+    "origine": "LE POULIGUEN",
+    "count(*)": 124
+  },
+  {
+    "origine_iata": "FREGU",
+    "origine": "LE CROISIC",
+    "count(*)": 601
+  },
+  {
+    "origine_iata": "FREIP",
+    "origine": "SURGERES",
+    "count(*)": 746
+  },
+  {
+    "origine_iata": "FREJC",
+    "origine": "ST MAIXENT (DEUX SEVRES)",
+    "count(*)": 389
+  },
+  {
+    "origine_iata": "FREMR",
+    "origine": "JONZAC",
+    "count(*)": 832
+  },
+  {
+    "origine_iata": "FRENC",
+    "origine": "NANCY",
+    "count(*)": 1820
+  },
+  {
+    "origine_iata": "FREPL",
+    "origine": "EPINAL",
+    "count(*)": 204
+  },
+  {
+    "origine_iata": "FRESL",
+    "origine": "VENDOME VILLIERS SUR LOIR",
+    "count(*)": 1172
+  },
+  {
+    "origine_iata": "FRETA",
+    "origine": "ETAPLES   LE TOUQUET",
+    "count(*)": 41
+  },
+  {
+    "origine_iata": "FRFAC",
+    "origine": "BIGANOS FACTURE",
+    "count(*)": 227
+  },
+  {
+    "origine_iata": "FRFCJ",
+    "origine": "LA TESTE",
+    "count(*)": 27
+  },
+  {
+    "origine_iata": "FRFIG",
+    "origine": "FIGEAC",
+    "count(*)": 48
+  },
+  {
+    "origine_iata": "FRFMN",
+    "origine": "ISSOUDUN",
+    "count(*)": 624
+  },
+  {
+    "origine_iata": "FRFMT",
+    "origine": "ARGENTON SUR CREUSE",
+    "count(*)": 978
+  },
+  {
+    "origine_iata": "FRFNI",
+    "origine": "NIMES CENTRE",
+    "count(*)": 4582
+  },
+  {
+    "origine_iata": "FRFPH",
+    "origine": "ST GAUDENS",
+    "count(*)": 297
+  },
+  {
+    "origine_iata": "FRFPU",
+    "origine": "SAVERDUN",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFPW",
+    "origine": "AUTERIVE",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFQF",
+    "origine": "PORTE PUYMORENS",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFQG",
+    "origine": "L'HOSPITALET PRES L'AND.",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFQH",
+    "origine": "MERENS LES VALS",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFQI",
+    "origine": "LUZENAC GARANOU",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFQK",
+    "origine": "LES CABANNES",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFQM",
+    "origine": "TARASCON SUR ARIEGE",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRFRA",
+    "origine": "FRASNE",
+    "count(*)": 496
+  },
+  {
+    "origine_iata": "FRFSA",
+    "origine": "ROCAMADOUR PADIRAC",
+    "count(*)": 29
+  },
+  {
+    "origine_iata": "FRFSB",
+    "origine": "GRAMAT",
+    "count(*)": 29
+  },
+  {
+    "origine_iata": "FRFSD",
+    "origine": "ASSIER",
+    "count(*)": 29
+  },
+  {
+    "origine_iata": "FRFSI",
+    "origine": "GOURDON",
+    "count(*)": 1313
+  },
+  {
+    "origine_iata": "FRFSQ",
+    "origine": "AUBIN",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRFSR",
+    "origine": "CRANSAC",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRFST",
+    "origine": "ST CHRISTOPHE",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRFTA",
+    "origine": "CAUSSADE(TARN ET GARONNE)",
+    "count(*)": 832
+  },
+  {
+    "origine_iata": "FRFWA",
+    "origine": "CARMAUX",
+    "count(*)": 4
+  },
+  {
+    "origine_iata": "FRFWF",
+    "origine": "NAUCELLE",
+    "count(*)": 4
+  },
+  {
+    "origine_iata": "FRGAT",
+    "origine": "GAP",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRGFI",
+    "origine": "ORTHEZ",
+    "count(*)": 1261
+  },
+  {
+    "origine_iata": "FRGGP",
+    "origine": "GUINGAMP",
+    "count(*)": 1157
+  },
+  {
+    "origine_iata": "FRGHA",
+    "origine": "ST VINCENT DE TYROSSE",
+    "count(*)": 18
+  },
+  {
+    "origine_iata": "FRGNB",
+    "origine": "GRENOBLE",
+    "count(*)": 394
+  },
+  {
+    "origine_iata": "FRGWE",
+    "origine": "MONTBARD",
+    "count(*)": 512
+  },
+  {
+    "origine_iata": "FRHGU",
+    "origine": "MACON VILLE",
+    "count(*)": 1394
+  },
+  {
+    "origine_iata": "FRHHD",
+    "origine": "SAINT ETIENNE CHATEAUCREUX",
+    "count(*)": 228
+  },
+  {
+    "origine_iata": "FRHLB",
+    "origine": "ISSOIRE",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRHLE",
+    "origine": "BRASSAC LES MINES STE FLORINE",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRHMY",
+    "origine": "MASSIAC BLESLE",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRHPG",
+    "origine": "LANDRY",
+    "count(*)": 6
+  },
+  {
+    "origine_iata": "FRHPN",
+    "origine": "ST JEAN DE MAURIENNE ARVAN",
+    "count(*)": 192
+  },
+  {
+    "origine_iata": "FRHQN",
+    "origine": "NURIEUX GARE",
+    "count(*)": 120
+  },
+  {
+    "origine_iata": "FRHZA",
+    "origine": "ARLES",
+    "count(*)": 913
+  },
+  {
+    "origine_iata": "FRHZK",
+    "origine": "HAZEBROUCK",
+    "count(*)": 97
+  },
+  {
+    "origine_iata": "FRIFP",
+    "origine": "LUC EN DIOIS",
+    "count(*)": 3
+  },
+  {
+    "origine_iata": "FRIGS",
+    "origine": "CHORGES",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRIGV",
+    "origine": "EMBRUN",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRIGZ",
+    "origine": "MONTDAUPHIN GUILLESTRE",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRIHC",
+    "origine": "L'ARGENTIERE LES ECRINS",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRIMC",
+    "origine": "CEILHES ROQUEREDONDE",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRIMG",
+    "origine": "LE BOUSQUET D'ORB",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRIMH",
+    "origine": "BEDARIEUX",
+    "count(*)": 680
+  },
+  {
+    "origine_iata": "FRIMK",
+    "origine": "MAGALAS",
+    "count(*)": 638
+  },
+  {
+    "origine_iata": "FRIMW",
+    "origine": "ST FLOUR CHAUDES AIGUES",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINB",
+    "origine": "SAINT CHELY D'APCHER",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINC",
+    "origine": "AUMONT AUBRAC",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINE",
+    "origine": "MARVEJOLS",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINH",
+    "origine": "BANASSAC LA CANOURGUE",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINJ",
+    "origine": "CAMPAGNAC ST GENIEZ",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINM",
+    "origine": "SAINT GEORGES DE LUZENCON",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINN",
+    "origine": "SAINT ROME DE CERNON",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRINO",
+    "origine": "TOURNEMIRE ROQUEFORT",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRIOG",
+    "origine": "ELNE",
+    "count(*)": 8
+  },
+  {
+    "origine_iata": "FRJCA",
+    "origine": "CANNES",
+    "count(*)": 1640
+  },
+  {
+    "origine_iata": "FRJDQ",
+    "origine": "LYON ST EXUPERY TGV.",
+    "count(*)": 787
+  },
+  {
+    "origine_iata": "FRJEE",
+    "origine": "LA BAULE ESCOUBLAC",
+    "count(*)": 598
+  },
+  {
+    "origine_iata": "FRKGD",
+    "origine": "COMMERCY ZONE DU SEUGNON",
+    "count(*)": 42
+  },
+  {
+    "origine_iata": "FRLAB",
+    "origine": "LES AUBRAIS ORLEANS",
+    "count(*)": 1249
+  },
+  {
+    "origine_iata": "FRLAI",
+    "origine": "LANNION",
+    "count(*)": 20
+  },
+  {
+    "origine_iata": "FRLAM",
+    "origine": "LAMBALLE",
+    "count(*)": 667
+  },
+  {
+    "origine_iata": "FRLCN",
+    "origine": "LUCON",
+    "count(*)": 843
+  },
+  {
+    "origine_iata": "FRLDE",
+    "origine": "LOURDES",
+    "count(*)": 1474
+  },
+  {
+    "origine_iata": "FRLLE",
+    "origine": "LILLE (intramuros)",
+    "count(*)": 3561
+  },
+  {
+    "origine_iata": "FRLMR",
+    "origine": "LE MONASTIER",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRLNE",
+    "origine": "LUNEVILLE",
+    "count(*)": 101
+  },
+  {
+    "origine_iata": "FRLNZ",
+    "origine": "LANNEMEZAN",
+    "count(*)": 267
+  },
+  {
+    "origine_iata": "FRLPD",
+    "origine": "LYON (intramuros)",
+    "count(*)": 10206
+  },
+  {
+    "origine_iata": "FRLPE",
+    "origine": "LYON (intramuros)",
+    "count(*)": 3457
+  },
+  {
+    "origine_iata": "FRLPZ",
+    "origine": "SOUILLY",
+    "count(*)": 656
+  },
+  {
+    "origine_iata": "FRLRH",
+    "origine": "LA ROCHELLE VILLE",
+    "count(*)": 1691
+  },
+  {
+    "origine_iata": "FRLRT",
+    "origine": "LORIENT",
+    "count(*)": 1597
+  },
+  {
+    "origine_iata": "FRLSO",
+    "origine": "LES SABLES D'OLONNE",
+    "count(*)": 253
+  },
+  {
+    "origine_iata": "FRLST",
+    "origine": "LA SOUTERRAINE",
+    "count(*)": 2105
+  },
+  {
+    "origine_iata": "FRMAU",
+    "origine": "MILLAU",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRMAZ",
+    "origine": "MIRAMAS",
+    "count(*)": 399
+  },
+  {
+    "origine_iata": "FRMBC",
+    "origine": "MARSEILLE BLANCARDE",
+    "count(*)": 26
+  },
+  {
+    "origine_iata": "FRMCD",
+    "origine": "MOUCHARD",
+    "count(*)": 186
+  },
+  {
+    "origine_iata": "FRMLT",
+    "origine": "MACON LOCHE TGV",
+    "count(*)": 1144
+  },
+  {
+    "origine_iata": "FRMLV",
+    "origine": "MARNE LA VALLEE CHESSY",
+    "count(*)": 4884
+  },
+  {
+    "origine_iata": "FRMLW",
+    "origine": "AEROPORT ROISSY CDG 2 TGV",
+    "count(*)": 5059
+  },
+  {
+    "origine_iata": "FRMPL",
+    "origine": "MONTPELLIER SAINT ROCH",
+    "count(*)": 4539
+  },
+  {
+    "origine_iata": "FRMPU",
+    "origine": "MASSY PALAISEAU",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "FRMSC",
+    "origine": "MARSEILLE ST CHARLES",
+    "count(*)": 6650
+  },
+  {
+    "origine_iata": "FRMTE",
+    "origine": "MANTES LA JOLIE",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "FRMTJ",
+    "origine": "MONTREJEAU GOURDAN POLIGNAN",
+    "count(*)": 174
+  },
+  {
+    "origine_iata": "FRMXN",
+    "origine": "MORLAIX",
+    "count(*)": 1107
+  },
+  {
+    "origine_iata": "FRNCH",
+    "origine": "NEUFCHATEAU",
+    "count(*)": 412
+  },
+  {
+    "origine_iata": "FRNCY",
+    "origine": "ANNECY",
+    "count(*)": 547
+  },
+  {
+    "origine_iata": "FRNEU",
+    "origine": "NEUSSARGUES",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRNIC",
+    "origine": "NICE VILLE",
+    "count(*)": 1787
+  },
+  {
+    "origine_iata": "FRNIT",
+    "origine": "NIORT",
+    "count(*)": 854
+  },
+  {
+    "origine_iata": "FRNTE",
+    "origine": "NANTES",
+    "count(*)": 5294
+  },
+  {
+    "origine_iata": "FRNVS",
+    "origine": "NEVERS",
+    "count(*)": 1977
+  },
+  {
+    "origine_iata": "FRPAZ",
+    "origine": "PARIS (intramuros)",
+    "count(*)": 3503
+  },
+  {
+    "origine_iata": "FRPBE",
+    "origine": "PARIS (intramuros)",
+    "count(*)": 1012
+  },
+  {
+    "origine_iata": "FRPFH",
+    "origine": "PIERREFITTE SUR AIRE",
+    "count(*)": 662
+  },
+  {
+    "origine_iata": "FRPFI",
+    "origine": "SAINT MIHIEL",
+    "count(*)": 993
+  },
+  {
+    "origine_iata": "FRPFJ",
+    "origine": "LEROUVILLE CENTRE",
+    "count(*)": 993
+  },
+  {
+    "origine_iata": "FRPGF",
+    "origine": "PERPIGNAN",
+    "count(*)": 1383
+  },
+  {
+    "origine_iata": "FRPIS",
+    "origine": "POITIERS",
+    "count(*)": 2590
+  },
+  {
+    "origine_iata": "FRPLT",
+    "origine": "PLOUARET TREGOR",
+    "count(*)": 471
+  },
+  {
+    "origine_iata": "FRPLY",
+    "origine": "PARIS (intramuros)",
+    "count(*)": 9967
+  },
+  {
+    "origine_iata": "FRPMO",
+    "origine": "PARIS (intramuros)",
+    "count(*)": 10761
+  },
+  {
+    "origine_iata": "FRPMS",
+    "origine": "PAMIERS",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRPNO",
+    "origine": "PARIS (intramuros)",
+    "count(*)": 2277
+  },
+  {
+    "origine_iata": "FRPST",
+    "origine": "PARIS (intramuros)",
+    "count(*)": 4163
+  },
+  {
+    "origine_iata": "FRQAI",
+    "origine": "AIME LA PLAGNE",
+    "count(*)": 6
+  },
+  {
+    "origine_iata": "FRQAM",
+    "origine": "AMIENS",
+    "count(*)": 93
+  },
+  {
+    "origine_iata": "FRQBM",
+    "origine": "BOURG SAINT MAURICE",
+    "count(*)": 6
+  },
+  {
+    "origine_iata": "FRQMU",
+    "origine": "MOUTIERS SALINS BRIDES LES BAINS",
+    "count(*)": 6
+  },
+  {
+    "origine_iata": "FRQNJ",
+    "origine": "ANNEMASSE",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRQRV",
+    "origine": "ARRAS",
+    "count(*)": 1198
+  },
+  {
+    "origine_iata": "FRRCO",
+    "origine": "ROCHEFORT",
+    "count(*)": 830
+  },
+  {
+    "origine_iata": "FRRDZ",
+    "origine": "RODEZ",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRRHE",
+    "origine": "REIMS",
+    "count(*)": 421
+  },
+  {
+    "origine_iata": "FRRIO",
+    "origine": "RIOM CHATEL GUYON",
+    "count(*)": 1039
+  },
+  {
+    "origine_iata": "FRRNE",
+    "origine": "ROANNE",
+    "count(*)": 990
+  },
+  {
+    "origine_iata": "FRRNS",
+    "origine": "RENNES",
+    "count(*)": 4674
+  },
+  {
+    "origine_iata": "FRRNT",
+    "origine": "REMIREMONT",
+    "count(*)": 204
+  },
+  {
+    "origine_iata": "FRRSP",
+    "origine": "ROSPORDEN",
+    "count(*)": 701
+  },
+  {
+    "origine_iata": "FRSAB",
+    "origine": "SABLE SUR SARTHE",
+    "count(*)": 471
+  },
+  {
+    "origine_iata": "FRSBG",
+    "origine": "SARREBOURG",
+    "count(*)": 145
+  },
+  {
+    "origine_iata": "FRSBK",
+    "origine": "ST BRIEUC",
+    "count(*)": 1481
+  },
+  {
+    "origine_iata": "FRSDM",
+    "origine": "ST DENIS PRES MARTEL",
+    "count(*)": 29
+  },
+  {
+    "origine_iata": "FRSGF",
+    "origine": "SAINT GERMAIN DES FOSSES",
+    "count(*)": 1017
+  },
+  {
+    "origine_iata": "FRSHY",
+    "origine": "SAINT MIHIEL DETENTION",
+    "count(*)": 993
+  },
+  {
+    "origine_iata": "FRSHZ",
+    "origine": "FRESNES AU MONT",
+    "count(*)": 993
+  },
+  {
+    "origine_iata": "FRSIA",
+    "origine": "SAMPIGNY CENTRE",
+    "count(*)": 993
+  },
+  {
+    "origine_iata": "FRSNE",
+    "origine": "SAVERNE",
+    "count(*)": 142
+  },
+  {
+    "origine_iata": "FRSNR",
+    "origine": "ST NAZAIRE",
+    "count(*)": 702
+  },
+  {
+    "origine_iata": "FRSOU",
+    "origine": "SOUILLAC",
+    "count(*)": 1313
+  },
+  {
+    "origine_iata": "FRSTH",
+    "origine": "CALAIS FRETHUN",
+    "count(*)": 143
+  },
+  {
+    "origine_iata": "FRSUF",
+    "origine": "MONTPELLIER SUD DE FRANCE",
+    "count(*)": 1798
+  },
+  {
+    "origine_iata": "FRSVC",
+    "origine": "SEVERAC LE CHATEAU",
+    "count(*)": 678
+  },
+  {
+    "origine_iata": "FRSZE",
+    "origine": "SAINCAIZE",
+    "count(*)": 66
+  },
+  {
+    "origine_iata": "FRTGO",
+    "origine": "FUTUROSCOPE",
+    "count(*)": 307
+  },
+  {
+    "origine_iata": "FRTHP",
+    "origine": "TGV HAUTE PICARDIE",
+    "count(*)": 1754
+  },
+  {
+    "origine_iata": "FRTJA",
+    "origine": "BELFORT MONTBELIARD TGV",
+    "count(*)": 3536
+  },
+  {
+    "origine_iata": "FRTJB",
+    "origine": "BESANCON FRANCHE COMTE TGV",
+    "count(*)": 3343
+  },
+  {
+    "origine_iata": "FRTLN",
+    "origine": "TOULON",
+    "count(*)": 2053
+  },
+  {
+    "origine_iata": "FRTOL",
+    "origine": "TOUL",
+    "count(*)": 427
+  },
+  {
+    "origine_iata": "FRUIP",
+    "origine": "QUIMPER",
+    "count(*)": 1484
+  },
+  {
+    "origine_iata": "FRURD",
+    "origine": "ROUEN RIVE DROITE",
+    "count(*)": 144
+  },
+  {
+    "origine_iata": "FRVAF",
+    "origine": "VALENCE VILLE",
+    "count(*)": 388
+  },
+  {
+    "origine_iata": "FRVDY",
+    "origine": "VEYNES DEVOLUY",
+    "count(*)": 14
+  },
+  {
+    "origine_iata": "FRVHY",
+    "origine": "VICHY",
+    "count(*)": 1054
+  },
+  {
+    "origine_iata": "FRVLA",
+    "origine": "VALENCE TGV AUVERGNE RHONE ALPES",
+    "count(*)": 5742
+  },
+  {
+    "origine_iata": "FRVNE",
+    "origine": "VANNES",
+    "count(*)": 1538
+  },
+  {
+    "origine_iata": "FRVZD",
+    "origine": "VIVIEZ DECAZEVILLE",
+    "count(*)": 30
+  },
+  {
+    "origine_iata": "FRXAC",
+    "origine": "ARCACHON",
+    "count(*)": 145
+  },
+  {
+    "origine_iata": "FRXAG",
+    "origine": "AGDE",
+    "count(*)": 879
+  },
+  {
+    "origine_iata": "FRXAI",
+    "origine": "AIX LES BAINS LE REVARD",
+    "count(*)": 604
+  },
+  {
+    "origine_iata": "FRXAT",
+    "origine": "ANTIBES",
+    "count(*)": 1713
+  },
+  {
+    "origine_iata": "FRXAV",
+    "origine": "ALBERTVILLE",
+    "count(*)": 6
+  },
+  {
+    "origine_iata": "FRXBC",
+    "origine": "BRIANCON",
+    "count(*)": 39
+  },
+  {
+    "origine_iata": "FRXBD",
+    "origine": "BAR LE DUC",
+    "count(*)": 432
+  },
+  {
+    "origine_iata": "FRXBF",
+    "origine": "BELLEGARDE SUR VALSERINE GARE",
+    "count(*)": 795
+  },
+  {
+    "origine_iata": "FRXBH",
+    "origine": "BETHUNE",
+    "count(*)": 97
+  },
+  {
+    "origine_iata": "FRXBK",
+    "origine": "BOURG EN BRESSE",
+    "count(*)": 747
+  },
+  {
+    "origine_iata": "FRXBU",
+    "origine": "BANYULS SUR MER",
+    "count(*)": 8
+  },
+  {
+    "origine_iata": "FRXBV",
+    "origine": "BEAUNE",
+    "count(*)": 802
+  },
+  {
+    "origine_iata": "FRXBY",
+    "origine": "BAYONNE",
+    "count(*)": 1564
+  },
+  {
+    "origine_iata": "FRXCC",
+    "origine": "LE CREUSOT MONTCEAU MONTCHANIN",
+    "count(*)": 764
+  },
+  {
+    "origine_iata": "FRXCD",
+    "origine": "CHALON SUR SAONE",
+    "count(*)": 1173
+  },
+  {
+    "origine_iata": "FRXCE",
+    "origine": "CERBERE",
+    "count(*)": 8
+  },
+  {
+    "origine_iata": "FRXCR",
+    "origine": "CHALONS EN CHAMPAGNE",
+    "count(*)": 104
+  },
+  {
+    "origine_iata": "FRXCU",
+    "origine": "COLLIOURE",
+    "count(*)": 8
+  },
+  {
+    "origine_iata": "FRXCX",
+    "origine": "CHATELLERAULT",
+    "count(*)": 525
+  },
+  {
+    "origine_iata": "FRXCZ",
+    "origine": "CHARLEVILLE MEZIERES",
+    "count(*)": 253
+  },
+  {
+    "origine_iata": "FRXDN",
+    "origine": "DOUAI",
+    "count(*)": 686
+  },
+  {
+    "origine_iata": "FRXEB",
+    "origine": "EVIAN LES BAINS",
+    "count(*)": 40
+  },
+  {
+    "origine_iata": "FRXFX",
+    "origine": "FOIX",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRXHE",
+    "origine": "HYERES",
+    "count(*)": 110
+  },
+  {
+    "origine_iata": "FRXJZ",
+    "origine": "ST JEAN DE LUZ CIBOURE",
+    "count(*)": 1118
+  },
+  {
+    "origine_iata": "FRXLD",
+    "origine": "LANDERNEAU",
+    "count(*)": 239
+  },
+  {
+    "origine_iata": "FRXLE",
+    "origine": "LENS",
+    "count(*)": 97
+  },
+  {
+    "origine_iata": "FRXLR",
+    "origine": "LIBOURNE",
+    "count(*)": 272
+  },
+  {
+    "origine_iata": "FRXLT",
+    "origine": "AX LES THERMES",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRXMK",
+    "origine": "MONTELIMAR GARE SNCF",
+    "count(*)": 394
+  },
+  {
+    "origine_iata": "FRXMR",
+    "origine": "MARMANDE",
+    "count(*)": 401
+  },
+  {
+    "origine_iata": "FRXMU",
+    "origine": "MOULINS SUR ALLIER",
+    "count(*)": 2044
+  },
+  {
+    "origine_iata": "FRXMW",
+    "origine": "MONTAUBAN VILLE BOURBON",
+    "count(*)": 2593
+  },
+  {
+    "origine_iata": "FRXNA",
+    "origine": "NARBONNE",
+    "count(*)": 3749
+  },
+  {
+    "origine_iata": "FRXOG",
+    "origine": "ORANGE",
+    "count(*)": 403
+  },
+  {
+    "origine_iata": "FRXPV",
+    "origine": "PORT VENDRES VILLE",
+    "count(*)": 8
+  },
+  {
+    "origine_iata": "FRXRN",
+    "origine": "REDON",
+    "count(*)": 825
+  },
+  {
+    "origine_iata": "FRXRO",
+    "origine": "LA ROCHE SUR YON",
+    "count(*)": 1095
+  },
+  {
+    "origine_iata": "FRXRS",
+    "origine": "LES ARCS DRAGUIGNAN",
+    "count(*)": 1183
+  },
+  {
+    "origine_iata": "FRXSB",
+    "origine": "ST MALO",
+    "count(*)": 312
+  },
+  {
+    "origine_iata": "FRXSH",
+    "origine": "ST PIERRE DES CORPS",
+    "count(*)": 4313
+  },
+  {
+    "origine_iata": "FRXSJ",
+    "origine": "SAINT QUENTIN",
+    "count(*)": 93
+  },
+  {
+    "origine_iata": "FRXSK",
+    "origine": "ST RAPHAEL VALESCURE",
+    "count(*)": 1415
+  },
+  {
+    "origine_iata": "FRXSQ",
+    "origine": "SELESTAT",
+    "count(*)": 111
+  },
+  {
+    "origine_iata": "FRXST",
+    "origine": "SAINTES",
+    "count(*)": 831
+  },
+  {
+    "origine_iata": "FRXSW",
+    "origine": "SEDAN",
+    "count(*)": 208
+  },
+  {
+    "origine_iata": "FRXSY",
+    "origine": "SETE",
+    "count(*)": 1778
+  },
+  {
+    "origine_iata": "FRXTB",
+    "origine": "TARBES",
+    "count(*)": 1459
+  },
+  {
+    "origine_iata": "FRXTD",
+    "origine": "ST DIE",
+    "count(*)": 74
+  },
+  {
+    "origine_iata": "FRXTE",
+    "origine": "LATOUR DE CAROL ENVEITG",
+    "count(*)": 10
+  },
+  {
+    "origine_iata": "FRXTH",
+    "origine": "THIONVILLE",
+    "count(*)": 1268
+  },
+  {
+    "origine_iata": "FRXTS",
+    "origine": "THONON LES BAINS",
+    "count(*)": 35
+  },
+  {
+    "origine_iata": "FRXUY",
+    "origine": "AURAY",
+    "count(*)": 1161
+  },
+  {
+    "origine_iata": "FRXVN",
+    "origine": "VERDUN",
+    "count(*)": 656
+  },
+  {
+    "origine_iata": "FRXVS",
+    "origine": "VALENCIENNES",
+    "count(*)": 94
+  },
+  {
+    "origine_iata": "FRXVT",
+    "origine": "VITRE",
+    "count(*)": 312
+  },
+  {
+    "origine_iata": "FRXVZ",
+    "origine": "VIERZON",
+    "count(*)": 3080
+  },
+  {
+    "origine_iata": "FRXYT",
+    "origine": "TOULOUSE MATABIAU",
+    "count(*)": 4493
+  },
+  {
+    "origine_iata": "FRXZP",
+    "origine": "NIMES PONT DU GARD",
+    "count(*)": 1693
+  },
+  {
+    "origine_iata": "FRZAO",
+    "origine": "CAHORS",
+    "count(*)": 1336
+  },
+  {
+    "origine_iata": "ITBGD",
+    "origine": "TORINO PORTA NUOVA",
+    "count(*)": 17
+  },
+  {
+    "origine_iata": "ITMPG",
+    "origine": "MILANO PORTA GARIBALDI",
+    "count(*)": 564
+  },
+  {
+    "origine_iata": "ITOCS",
+    "origine": "OUX CESANA CLAV SESTRIERE",
+    "count(*)": 569
+  },
+  {
+    "origine_iata": "ITTRS",
+    "origine": "TORINO PORTA SUSA",
+    "count(*)": 552
+  },
+  {
+    "origine_iata": "LULUX",
+    "origine": "LUXEMBOURG",
+    "count(*)": 1271
+  }
+]

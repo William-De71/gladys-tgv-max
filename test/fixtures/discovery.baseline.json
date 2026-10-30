@@ -1,0 +1,259 @@
+{
+  "comment": "Generated from version 0.1.0. Never update without a documented migration.",
+  "devices": {
+    "route": {
+      "external_id": "ext:tgv-max:route:3f9a12c4",
+      "should_poll": false,
+      "params": ["TGV_MAX_ORIGIN", "TGV_MAX_DESTINATION"],
+      "features": [
+        {
+          "external_id": "ext:tgv-max:route:3f9a12c4:open_trains",
+          "category": "counter-sensor",
+          "type": "integer",
+          "min": 0,
+          "max": 2000,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:tgv-max:route:3f9a12c4:open_week",
+          "category": "counter-sensor",
+          "type": "integer",
+          "min": 0,
+          "max": 2000,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:tgv-max:route:3f9a12c4:open_days",
+          "category": "counter-sensor",
+          "type": "integer",
+          "min": 0,
+          "max": 31,
+          "read_only": true,
+          "has_feedback": false
+        },
+        {
+          "external_id": "ext:tgv-max:route:3f9a12c4:next_train",
+          "category": "text",
+          "type": "text",
+          "min": 0,
+          "max": 0,
+          "read_only": true,
+          "has_feedback": false
+        }
+      ]
+    }
+  },
+  "internal_keys": {
+    "routes": "routes",
+    "language": "last_language"
+  },
+  "manifest": {
+    "actions": [
+      "test_connection",
+      "find_station",
+      "add_route",
+      "edit_route",
+      "remove_route",
+      "list_routes"
+    ],
+    "config_schema": [
+      {
+        "key": "intro",
+        "type": "section"
+      },
+      {
+        "key": "language",
+        "type": "select"
+      }
+    ],
+    "scene_triggers": [
+      {
+        "key": "new_seats",
+        "fields": [
+          {
+            "key": "route",
+            "options": []
+          }
+        ],
+        "variables": [
+          {
+            "key": "route_name",
+            "type": "string"
+          },
+          {
+            "key": "origin",
+            "type": "string"
+          },
+          {
+            "key": "destination",
+            "type": "string"
+          },
+          {
+            "key": "count",
+            "type": "number"
+          },
+          {
+            "key": "first_date",
+            "type": "string"
+          },
+          {
+            "key": "first_date_text",
+            "type": "string"
+          },
+          {
+            "key": "first_departure",
+            "type": "string"
+          },
+          {
+            "key": "first_arrival",
+            "type": "string"
+          },
+          {
+            "key": "first_train",
+            "type": "string"
+          },
+          {
+            "key": "days_until",
+            "type": "number"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "sold_out",
+        "fields": [
+          {
+            "key": "route",
+            "options": []
+          }
+        ],
+        "variables": [
+          {
+            "key": "route_name",
+            "type": "string"
+          },
+          {
+            "key": "origin",
+            "type": "string"
+          },
+          {
+            "key": "destination",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "scene_actions": [
+      {
+        "key": "search_seats",
+        "fields": ["origin", "destination", "date", "depart_after", "depart_before"],
+        "outputs": [
+          {
+            "key": "found",
+            "type": "boolean"
+          },
+          {
+            "key": "count",
+            "type": "number"
+          },
+          {
+            "key": "origin_name",
+            "type": "string"
+          },
+          {
+            "key": "destination_name",
+            "type": "string"
+          },
+          {
+            "key": "date",
+            "type": "string"
+          },
+          {
+            "key": "first_departure",
+            "type": "string"
+          },
+          {
+            "key": "first_arrival",
+            "type": "string"
+          },
+          {
+            "key": "first_train",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      },
+      {
+        "key": "get_route",
+        "fields": ["route"],
+        "outputs": [
+          {
+            "key": "found",
+            "type": "boolean"
+          },
+          {
+            "key": "count",
+            "type": "number"
+          },
+          {
+            "key": "days",
+            "type": "number"
+          },
+          {
+            "key": "next_date",
+            "type": "string"
+          },
+          {
+            "key": "next_date_text",
+            "type": "string"
+          },
+          {
+            "key": "next_departure",
+            "type": "string"
+          },
+          {
+            "key": "next_arrival",
+            "type": "string"
+          },
+          {
+            "key": "next_train",
+            "type": "string"
+          },
+          {
+            "key": "summary",
+            "type": "string"
+          }
+        ]
+      }
+    ],
+    "widgets": [
+      {
+        "key": "trains",
+        "settings": ["route", "count"],
+        "options": {}
+      },
+      {
+        "key": "calendar",
+        "settings": ["route"],
+        "options": {}
+      },
+      {
+        "key": "overview",
+        "settings": [],
+        "options": {}
+      }
+    ]
+  }
+}

@@ -1,0 +1,1597 @@
+[
+  {
+    "destination_iata": "BEBMI",
+    "destination": "BRUXELLES MIDI",
+    "count(*)": 2464
+  },
+  {
+    "destination_iata": "CHAGL",
+    "destination": "VALLORBE",
+    "count(*)": 403
+  },
+  {
+    "destination_iata": "CHAJD",
+    "destination": "ZURICH HB",
+    "count(*)": 464
+  },
+  {
+    "destination_iata": "CHAJF",
+    "destination": "LAUSANNE",
+    "count(*)": 420
+  },
+  {
+    "destination_iata": "CHAJP",
+    "destination": "BASEL SBB",
+    "count(*)": 500
+  },
+  {
+    "destination_iata": "CHGVA",
+    "destination": "GENEVE CORNAVIN",
+    "count(*)": 769
+  },
+  {
+    "destination_iata": "DEAGB",
+    "destination": "AUGSBURG HBF",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "DEANL",
+    "destination": "LAHR SCHWARZW",
+    "count(*)": 113
+  },
+  {
+    "destination_iata": "DEBEG",
+    "destination": "MUNCHEN HBF",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "DEFGB",
+    "destination": "FREIBURG (BREISGAU) HBF",
+    "count(*)": 155
+  },
+  {
+    "destination_iata": "DEFRH",
+    "destination": "FRANKFURT AM MAIN HBF",
+    "count(*)": 1161
+  },
+  {
+    "destination_iata": "DEKLT",
+    "destination": "KAISERSLAUTERN HBF",
+    "count(*)": 526
+  },
+  {
+    "destination_iata": "DEMHG",
+    "destination": "MANNHEIM HBF",
+    "count(*)": 1163
+  },
+  {
+    "destination_iata": "DEQHD",
+    "destination": "HEIDELBERG HBF",
+    "count(*)": 1
+  },
+  {
+    "destination_iata": "DEQKA",
+    "destination": "KARLSRUHE HBF",
+    "count(*)": 1210
+  },
+  {
+    "destination_iata": "DEQUL",
+    "destination": "ULM HBF",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "DERSH",
+    "destination": "RINGSHEIM EUROPA PARK",
+    "count(*)": 155
+  },
+  {
+    "destination_iata": "DESBK",
+    "destination": "SAARBRUECKEN/SARREBRUCK",
+    "count(*)": 521
+  },
+  {
+    "destination_iata": "DESGT",
+    "destination": "STUTTGART HBF",
+    "count(*)": 507
+  },
+  {
+    "destination_iata": "DEZCC",
+    "destination": "BADEN BADEN",
+    "count(*)": 365
+  },
+  {
+    "destination_iata": "DEZPA",
+    "destination": "OFFENBURG",
+    "count(*)": 134
+  },
+  {
+    "destination_iata": "ESBST",
+    "destination": "BARCELONA SANTS",
+    "count(*)": 421
+  },
+  {
+    "destination_iata": "ESFIR",
+    "destination": "FIGUERES VILAFANT",
+    "count(*)": 421
+  },
+  {
+    "destination_iata": "ESGRO",
+    "destination": "GIRONA",
+    "count(*)": 421
+  },
+  {
+    "destination_iata": "FRAAW",
+    "destination": "UZERCHE",
+    "count(*)": 850
+  },
+  {
+    "destination_iata": "FRABA",
+    "destination": "DIJON VILLE",
+    "count(*)": 4410
+  },
+  {
+    "destination_iata": "FRABG",
+    "destination": "BESANCON VIOTTE",
+    "count(*)": 312
+  },
+  {
+    "destination_iata": "FRACE",
+    "destination": "DOLE VILLE",
+    "count(*)": 694
+  },
+  {
+    "destination_iata": "FRACG",
+    "destination": "DAX",
+    "count(*)": 1669
+  },
+  {
+    "destination_iata": "FRACL",
+    "destination": "ANGERS SAINT LAUD",
+    "count(*)": 4461
+  },
+  {
+    "destination_iata": "FRACN",
+    "destination": "SAUMUR",
+    "count(*)": 1240
+  },
+  {
+    "destination_iata": "FRACR",
+    "destination": "LAVAL",
+    "count(*)": 1910
+  },
+  {
+    "destination_iata": "FRADE",
+    "destination": "METZ VILLE",
+    "count(*)": 2041
+  },
+  {
+    "destination_iata": "FRADI",
+    "destination": "DUNKERQUE",
+    "count(*)": 149
+  },
+  {
+    "destination_iata": "FRADJ",
+    "destination": "LILLE (intramuros)",
+    "count(*)": 887
+  },
+  {
+    "destination_iata": "FRADM",
+    "destination": "TOURCOING",
+    "count(*)": 26
+  },
+  {
+    "destination_iata": "FRADP",
+    "destination": "ROUBAIX",
+    "count(*)": 26
+  },
+  {
+    "destination_iata": "FRAEB",
+    "destination": "BOULOGNE VILLE",
+    "count(*)": 129
+  },
+  {
+    "destination_iata": "FRAEE",
+    "destination": "PAU",
+    "count(*)": 1477
+  },
+  {
+    "destination_iata": "FRAEF",
+    "destination": "HENDAYE",
+    "count(*)": 1114
+  },
+  {
+    "destination_iata": "FRAEG",
+    "destination": "STRASBOURG",
+    "count(*)": 5770
+  },
+  {
+    "destination_iata": "FRAEJ",
+    "destination": "COLMAR",
+    "count(*)": 1860
+  },
+  {
+    "destination_iata": "FRAEK",
+    "destination": "MULHOUSE VILLE",
+    "count(*)": 3895
+  },
+  {
+    "destination_iata": "FRAES",
+    "destination": "AVIGNON CENTRE",
+    "count(*)": 398
+  },
+  {
+    "destination_iata": "FRAET",
+    "destination": "LE MANS",
+    "count(*)": 3548
+  },
+  {
+    "destination_iata": "FRAEZ",
+    "destination": "LE HAVRE",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "FRAFJ",
+    "destination": "ALBI VILLE",
+    "count(*)": 4
+  },
+  {
+    "destination_iata": "FRAFW",
+    "destination": "TOURS",
+    "count(*)": 1046
+  },
+  {
+    "destination_iata": "FRAGF",
+    "destination": "AGEN",
+    "count(*)": 1297
+  },
+  {
+    "destination_iata": "FRAGQ",
+    "destination": "LIMOGES BENEDICTINS",
+    "count(*)": 2278
+  },
+  {
+    "destination_iata": "FRAGR",
+    "destination": "MODANE",
+    "count(*)": 563
+  },
+  {
+    "destination_iata": "FRAIE",
+    "destination": "AIX EN PROVENCE TGV",
+    "count(*)": 4026
+  },
+  {
+    "destination_iata": "FRAMA",
+    "destination": "ALBI MADELEINE",
+    "count(*)": 4
+  },
+  {
+    "destination_iata": "FRANG",
+    "destination": "ANGOULEME",
+    "count(*)": 1181
+  },
+  {
+    "destination_iata": "FRARM",
+    "destination": "ARGELES SUR MER",
+    "count(*)": 9
+  },
+  {
+    "destination_iata": "FRARV",
+    "destination": "ARVANT",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRAUR",
+    "destination": "AURILLAC",
+    "count(*)": 22
+  },
+  {
+    "destination_iata": "FRAVG",
+    "destination": "AVIGNON TGV",
+    "count(*)": 5086
+  },
+  {
+    "destination_iata": "FRBDT",
+    "destination": "RETHEL",
+    "count(*)": 253
+  },
+  {
+    "destination_iata": "FRBES",
+    "destination": "BREST",
+    "count(*)": 1343
+  },
+  {
+    "destination_iata": "FRBFO",
+    "destination": "VITRY LE FRANCOIS",
+    "count(*)": 104
+  },
+  {
+    "destination_iata": "FRBHA",
+    "destination": "COMMERCY",
+    "count(*)": 683
+  },
+  {
+    "destination_iata": "FRBIQ",
+    "destination": "BIARRITZ",
+    "count(*)": 1112
+  },
+  {
+    "destination_iata": "FRBOJ",
+    "destination": "BORDEAUX ST JEAN",
+    "count(*)": 6150
+  },
+  {
+    "destination_iata": "FRBOU",
+    "destination": "BOURGES",
+    "count(*)": 990
+  },
+  {
+    "destination_iata": "FRBQT",
+    "destination": "FORBACH",
+    "count(*)": 309
+  },
+  {
+    "destination_iata": "FRBVE",
+    "destination": "BRIVE LA GAILLARDE",
+    "count(*)": 2277
+  },
+  {
+    "destination_iata": "FRBZR",
+    "destination": "BEZIERS",
+    "count(*)": 3855
+  },
+  {
+    "destination_iata": "FRCCF",
+    "destination": "CARCASSONNE",
+    "count(*)": 2302
+  },
+  {
+    "destination_iata": "FRCCY",
+    "destination": "CULMONT CHALINDREY",
+    "count(*)": 432
+  },
+  {
+    "destination_iata": "FRCDC",
+    "destination": "CAPDENAC",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRCFE",
+    "destination": "CLERMONT FERRAND",
+    "count(*)": 1750
+  },
+  {
+    "destination_iata": "FRCHR",
+    "destination": "CHATEAUROUX",
+    "count(*)": 2300
+  },
+  {
+    "destination_iata": "FRCKH",
+    "destination": "CROIX WASQUEHAL",
+    "count(*)": 26
+  },
+  {
+    "destination_iata": "FRCMF",
+    "destination": "CHAMBERY CHALLES LES EAUX",
+    "count(*)": 1164
+  },
+  {
+    "destination_iata": "FRCRE",
+    "destination": "CREST",
+    "count(*)": 14
+  },
+  {
+    "destination_iata": "FRCVU",
+    "destination": "RANG DU FLIERS VERTON BERCK",
+    "count(*)": 62
+  },
+  {
+    "destination_iata": "FRDHT",
+    "destination": "VERSAILLES CHANTIERS",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "FRDIE",
+    "destination": "DIE",
+    "count(*)": 14
+  },
+  {
+    "destination_iata": "FRDJU",
+    "destination": "MASSY TGV",
+    "count(*)": 3944
+  },
+  {
+    "destination_iata": "FRDOL",
+    "destination": "DOL DE BRETAGNE",
+    "count(*)": 335
+  },
+  {
+    "destination_iata": "FREAH",
+    "destination": "CHAMPAGNE ARDENNE TGV",
+    "count(*)": 2167
+  },
+  {
+    "destination_iata": "FREAJ",
+    "destination": "MEUSE TGV",
+    "count(*)": 4576
+  },
+  {
+    "destination_iata": "FREAM",
+    "destination": "LORRAINE TGV",
+    "count(*)": 1849
+  },
+  {
+    "destination_iata": "FRECO",
+    "destination": "QUIMPERLE",
+    "count(*)": 628
+  },
+  {
+    "destination_iata": "FREFN",
+    "destination": "ANCENIS",
+    "count(*)": 20
+  },
+  {
+    "destination_iata": "FREGR",
+    "destination": "PORNICHET",
+    "count(*)": 132
+  },
+  {
+    "destination_iata": "FREGS",
+    "destination": "LE POULIGUEN",
+    "count(*)": 124
+  },
+  {
+    "destination_iata": "FREGU",
+    "destination": "LE CROISIC",
+    "count(*)": 649
+  },
+  {
+    "destination_iata": "FREIP",
+    "destination": "SURGERES",
+    "count(*)": 799
+  },
+  {
+    "destination_iata": "FREJC",
+    "destination": "ST MAIXENT (DEUX SEVRES)",
+    "count(*)": 343
+  },
+  {
+    "destination_iata": "FREMR",
+    "destination": "JONZAC",
+    "count(*)": 827
+  },
+  {
+    "destination_iata": "FRENC",
+    "destination": "NANCY",
+    "count(*)": 1795
+  },
+  {
+    "destination_iata": "FREPL",
+    "destination": "EPINAL",
+    "count(*)": 220
+  },
+  {
+    "destination_iata": "FRESL",
+    "destination": "VENDOME VILLIERS SUR LOIR",
+    "count(*)": 995
+  },
+  {
+    "destination_iata": "FRETA",
+    "destination": "ETAPLES   LE TOUQUET",
+    "count(*)": 62
+  },
+  {
+    "destination_iata": "FRFAC",
+    "destination": "BIGANOS FACTURE",
+    "count(*)": 218
+  },
+  {
+    "destination_iata": "FRFCJ",
+    "destination": "LA TESTE",
+    "count(*)": 20
+  },
+  {
+    "destination_iata": "FRFIG",
+    "destination": "FIGEAC",
+    "count(*)": 55
+  },
+  {
+    "destination_iata": "FRFMN",
+    "destination": "ISSOUDUN",
+    "count(*)": 584
+  },
+  {
+    "destination_iata": "FRFMT",
+    "destination": "ARGENTON SUR CREUSE",
+    "count(*)": 1004
+  },
+  {
+    "destination_iata": "FRFNI",
+    "destination": "NIMES CENTRE",
+    "count(*)": 4479
+  },
+  {
+    "destination_iata": "FRFPH",
+    "destination": "ST GAUDENS",
+    "count(*)": 354
+  },
+  {
+    "destination_iata": "FRFPU",
+    "destination": "SAVERDUN",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFPW",
+    "destination": "AUTERIVE",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFQF",
+    "destination": "PORTE PUYMORENS",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFQG",
+    "destination": "L'HOSPITALET PRES L'AND.",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFQH",
+    "destination": "MERENS LES VALS",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFQI",
+    "destination": "LUZENAC GARANOU",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFQK",
+    "destination": "LES CABANNES",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFQM",
+    "destination": "TARASCON SUR ARIEGE",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRFRA",
+    "destination": "FRASNE",
+    "count(*)": 496
+  },
+  {
+    "destination_iata": "FRFSA",
+    "destination": "ROCAMADOUR PADIRAC",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRFSB",
+    "destination": "GRAMAT",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRFSD",
+    "destination": "ASSIER",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRFSI",
+    "destination": "GOURDON",
+    "count(*)": 1296
+  },
+  {
+    "destination_iata": "FRFSQ",
+    "destination": "AUBIN",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRFSR",
+    "destination": "CRANSAC",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRFST",
+    "destination": "ST CHRISTOPHE",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRFTA",
+    "destination": "CAUSSADE(TARN ET GARONNE)",
+    "count(*)": 840
+  },
+  {
+    "destination_iata": "FRFWA",
+    "destination": "CARMAUX",
+    "count(*)": 4
+  },
+  {
+    "destination_iata": "FRFWF",
+    "destination": "NAUCELLE",
+    "count(*)": 4
+  },
+  {
+    "destination_iata": "FRGAT",
+    "destination": "GAP",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRGFI",
+    "destination": "ORTHEZ",
+    "count(*)": 1296
+  },
+  {
+    "destination_iata": "FRGGP",
+    "destination": "GUINGAMP",
+    "count(*)": 1146
+  },
+  {
+    "destination_iata": "FRGHA",
+    "destination": "ST VINCENT DE TYROSSE",
+    "count(*)": 16
+  },
+  {
+    "destination_iata": "FRGNB",
+    "destination": "GRENOBLE",
+    "count(*)": 406
+  },
+  {
+    "destination_iata": "FRGWE",
+    "destination": "MONTBARD",
+    "count(*)": 508
+  },
+  {
+    "destination_iata": "FRHGU",
+    "destination": "MACON VILLE",
+    "count(*)": 1611
+  },
+  {
+    "destination_iata": "FRHHD",
+    "destination": "SAINT ETIENNE CHATEAUCREUX",
+    "count(*)": 264
+  },
+  {
+    "destination_iata": "FRHLB",
+    "destination": "ISSOIRE",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRHLE",
+    "destination": "BRASSAC LES MINES STE FLORINE",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRHMY",
+    "destination": "MASSIAC BLESLE",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRHPG",
+    "destination": "LANDRY",
+    "count(*)": 6
+  },
+  {
+    "destination_iata": "FRHPN",
+    "destination": "ST JEAN DE MAURIENNE ARVAN",
+    "count(*)": 186
+  },
+  {
+    "destination_iata": "FRHQN",
+    "destination": "NURIEUX GARE",
+    "count(*)": 120
+  },
+  {
+    "destination_iata": "FRHZA",
+    "destination": "ARLES",
+    "count(*)": 838
+  },
+  {
+    "destination_iata": "FRHZK",
+    "destination": "HAZEBROUCK",
+    "count(*)": 98
+  },
+  {
+    "destination_iata": "FRIFP",
+    "destination": "LUC EN DIOIS",
+    "count(*)": 2
+  },
+  {
+    "destination_iata": "FRIGS",
+    "destination": "CHORGES",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRIGV",
+    "destination": "EMBRUN",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRIGZ",
+    "destination": "MONTDAUPHIN GUILLESTRE",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRIHC",
+    "destination": "L'ARGENTIERE LES ECRINS",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRIMC",
+    "destination": "CEILHES ROQUEREDONDE",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRIMG",
+    "destination": "LE BOUSQUET D'ORB",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRIMH",
+    "destination": "BEDARIEUX",
+    "count(*)": 680
+  },
+  {
+    "destination_iata": "FRIMK",
+    "destination": "MAGALAS",
+    "count(*)": 638
+  },
+  {
+    "destination_iata": "FRIMW",
+    "destination": "ST FLOUR CHAUDES AIGUES",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINB",
+    "destination": "SAINT CHELY D'APCHER",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINC",
+    "destination": "AUMONT AUBRAC",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINE",
+    "destination": "MARVEJOLS",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINH",
+    "destination": "BANASSAC LA CANOURGUE",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINJ",
+    "destination": "CAMPAGNAC ST GENIEZ",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINM",
+    "destination": "SAINT GEORGES DE LUZENCON",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINN",
+    "destination": "SAINT ROME DE CERNON",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRINO",
+    "destination": "TOURNEMIRE ROQUEFORT",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRIOG",
+    "destination": "ELNE",
+    "count(*)": 9
+  },
+  {
+    "destination_iata": "FRJCA",
+    "destination": "CANNES",
+    "count(*)": 1635
+  },
+  {
+    "destination_iata": "FRJDQ",
+    "destination": "LYON ST EXUPERY TGV.",
+    "count(*)": 819
+  },
+  {
+    "destination_iata": "FRJEE",
+    "destination": "LA BAULE ESCOUBLAC",
+    "count(*)": 652
+  },
+  {
+    "destination_iata": "FRKGD",
+    "destination": "COMMERCY ZONE DU SEUGNON",
+    "count(*)": 42
+  },
+  {
+    "destination_iata": "FRLAB",
+    "destination": "LES AUBRAIS ORLEANS",
+    "count(*)": 1237
+  },
+  {
+    "destination_iata": "FRLAI",
+    "destination": "LANNION",
+    "count(*)": 40
+  },
+  {
+    "destination_iata": "FRLAM",
+    "destination": "LAMBALLE",
+    "count(*)": 594
+  },
+  {
+    "destination_iata": "FRLCN",
+    "destination": "LUCON",
+    "count(*)": 846
+  },
+  {
+    "destination_iata": "FRLDE",
+    "destination": "LOURDES",
+    "count(*)": 1534
+  },
+  {
+    "destination_iata": "FRLLE",
+    "destination": "LILLE (intramuros)",
+    "count(*)": 3944
+  },
+  {
+    "destination_iata": "FRLMR",
+    "destination": "LE MONASTIER",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRLNE",
+    "destination": "LUNEVILLE",
+    "count(*)": 161
+  },
+  {
+    "destination_iata": "FRLNZ",
+    "destination": "LANNEMEZAN",
+    "count(*)": 123
+  },
+  {
+    "destination_iata": "FRLPD",
+    "destination": "LYON (intramuros)",
+    "count(*)": 10267
+  },
+  {
+    "destination_iata": "FRLPE",
+    "destination": "LYON (intramuros)",
+    "count(*)": 3155
+  },
+  {
+    "destination_iata": "FRLPZ",
+    "destination": "SOUILLY",
+    "count(*)": 656
+  },
+  {
+    "destination_iata": "FRLRH",
+    "destination": "LA ROCHELLE VILLE",
+    "count(*)": 1762
+  },
+  {
+    "destination_iata": "FRLRT",
+    "destination": "LORIENT",
+    "count(*)": 1553
+  },
+  {
+    "destination_iata": "FRLSO",
+    "destination": "LES SABLES D'OLONNE",
+    "count(*)": 310
+  },
+  {
+    "destination_iata": "FRLST",
+    "destination": "LA SOUTERRAINE",
+    "count(*)": 2102
+  },
+  {
+    "destination_iata": "FRMAU",
+    "destination": "MILLAU",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRMAZ",
+    "destination": "MIRAMAS",
+    "count(*)": 342
+  },
+  {
+    "destination_iata": "FRMBC",
+    "destination": "MARSEILLE BLANCARDE",
+    "count(*)": 28
+  },
+  {
+    "destination_iata": "FRMCD",
+    "destination": "MOUCHARD",
+    "count(*)": 186
+  },
+  {
+    "destination_iata": "FRMLT",
+    "destination": "MACON LOCHE TGV",
+    "count(*)": 1161
+  },
+  {
+    "destination_iata": "FRMLV",
+    "destination": "MARNE LA VALLEE CHESSY",
+    "count(*)": 5059
+  },
+  {
+    "destination_iata": "FRMLW",
+    "destination": "AEROPORT ROISSY CDG 2 TGV",
+    "count(*)": 5169
+  },
+  {
+    "destination_iata": "FRMPL",
+    "destination": "MONTPELLIER SAINT ROCH",
+    "count(*)": 4653
+  },
+  {
+    "destination_iata": "FRMPU",
+    "destination": "MASSY PALAISEAU",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "FRMPV",
+    "destination": "PARIS MONTPARNASSE VAUGIRARD",
+    "count(*)": 39
+  },
+  {
+    "destination_iata": "FRMSC",
+    "destination": "MARSEILLE ST CHARLES",
+    "count(*)": 6945
+  },
+  {
+    "destination_iata": "FRMTE",
+    "destination": "MANTES LA JOLIE",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "FRMTJ",
+    "destination": "MONTREJEAU GOURDAN POLIGNAN",
+    "count(*)": 258
+  },
+  {
+    "destination_iata": "FRMXN",
+    "destination": "MORLAIX",
+    "count(*)": 1131
+  },
+  {
+    "destination_iata": "FRNCH",
+    "destination": "NEUFCHATEAU",
+    "count(*)": 361
+  },
+  {
+    "destination_iata": "FRNCY",
+    "destination": "ANNECY",
+    "count(*)": 579
+  },
+  {
+    "destination_iata": "FRNEU",
+    "destination": "NEUSSARGUES",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRNIC",
+    "destination": "NICE VILLE",
+    "count(*)": 1488
+  },
+  {
+    "destination_iata": "FRNIT",
+    "destination": "NIORT",
+    "count(*)": 910
+  },
+  {
+    "destination_iata": "FRNTE",
+    "destination": "NANTES",
+    "count(*)": 5386
+  },
+  {
+    "destination_iata": "FRNVS",
+    "destination": "NEVERS",
+    "count(*)": 1990
+  },
+  {
+    "destination_iata": "FRPAZ",
+    "destination": "PARIS (intramuros)",
+    "count(*)": 3531
+  },
+  {
+    "destination_iata": "FRPBE",
+    "destination": "PARIS (intramuros)",
+    "count(*)": 1017
+  },
+  {
+    "destination_iata": "FRPFH",
+    "destination": "PIERREFITTE SUR AIRE",
+    "count(*)": 662
+  },
+  {
+    "destination_iata": "FRPFI",
+    "destination": "SAINT MIHIEL",
+    "count(*)": 993
+  },
+  {
+    "destination_iata": "FRPFJ",
+    "destination": "LEROUVILLE CENTRE",
+    "count(*)": 993
+  },
+  {
+    "destination_iata": "FRPGF",
+    "destination": "PERPIGNAN",
+    "count(*)": 1400
+  },
+  {
+    "destination_iata": "FRPIS",
+    "destination": "POITIERS",
+    "count(*)": 2725
+  },
+  {
+    "destination_iata": "FRPLT",
+    "destination": "PLOUARET TREGOR",
+    "count(*)": 470
+  },
+  {
+    "destination_iata": "FRPLY",
+    "destination": "PARIS (intramuros)",
+    "count(*)": 9932
+  },
+  {
+    "destination_iata": "FRPMO",
+    "destination": "PARIS (intramuros)",
+    "count(*)": 10431
+  },
+  {
+    "destination_iata": "FRPMS",
+    "destination": "PAMIERS",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRPNO",
+    "destination": "PARIS (intramuros)",
+    "count(*)": 2162
+  },
+  {
+    "destination_iata": "FRPST",
+    "destination": "PARIS (intramuros)",
+    "count(*)": 3988
+  },
+  {
+    "destination_iata": "FRQAI",
+    "destination": "AIME LA PLAGNE",
+    "count(*)": 6
+  },
+  {
+    "destination_iata": "FRQAM",
+    "destination": "AMIENS",
+    "count(*)": 93
+  },
+  {
+    "destination_iata": "FRQBM",
+    "destination": "BOURG SAINT MAURICE",
+    "count(*)": 6
+  },
+  {
+    "destination_iata": "FRQMU",
+    "destination": "MOUTIERS SALINS BRIDES LES BAINS",
+    "count(*)": 6
+  },
+  {
+    "destination_iata": "FRQNJ",
+    "destination": "ANNEMASSE",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRQRV",
+    "destination": "ARRAS",
+    "count(*)": 1256
+  },
+  {
+    "destination_iata": "FRRCO",
+    "destination": "ROCHEFORT",
+    "count(*)": 829
+  },
+  {
+    "destination_iata": "FRRDZ",
+    "destination": "RODEZ",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRRHE",
+    "destination": "REIMS",
+    "count(*)": 420
+  },
+  {
+    "destination_iata": "FRRIO",
+    "destination": "RIOM CHATEL GUYON",
+    "count(*)": 1040
+  },
+  {
+    "destination_iata": "FRRNE",
+    "destination": "ROANNE",
+    "count(*)": 990
+  },
+  {
+    "destination_iata": "FRRNS",
+    "destination": "RENNES",
+    "count(*)": 4845
+  },
+  {
+    "destination_iata": "FRRNT",
+    "destination": "REMIREMONT",
+    "count(*)": 220
+  },
+  {
+    "destination_iata": "FRRSP",
+    "destination": "ROSPORDEN",
+    "count(*)": 629
+  },
+  {
+    "destination_iata": "FRSAB",
+    "destination": "SABLE SUR SARTHE",
+    "count(*)": 357
+  },
+  {
+    "destination_iata": "FRSBG",
+    "destination": "SARREBOURG",
+    "count(*)": 129
+  },
+  {
+    "destination_iata": "FRSBK",
+    "destination": "ST BRIEUC",
+    "count(*)": 1385
+  },
+  {
+    "destination_iata": "FRSDM",
+    "destination": "ST DENIS PRES MARTEL",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRSGF",
+    "destination": "SAINT GERMAIN DES FOSSES",
+    "count(*)": 1017
+  },
+  {
+    "destination_iata": "FRSHY",
+    "destination": "SAINT MIHIEL DETENTION",
+    "count(*)": 993
+  },
+  {
+    "destination_iata": "FRSHZ",
+    "destination": "FRESNES AU MONT",
+    "count(*)": 993
+  },
+  {
+    "destination_iata": "FRSIA",
+    "destination": "SAMPIGNY CENTRE",
+    "count(*)": 993
+  },
+  {
+    "destination_iata": "FRSNE",
+    "destination": "SAVERNE",
+    "count(*)": 132
+  },
+  {
+    "destination_iata": "FRSNR",
+    "destination": "ST NAZAIRE",
+    "count(*)": 783
+  },
+  {
+    "destination_iata": "FRSOU",
+    "destination": "SOUILLAC",
+    "count(*)": 1296
+  },
+  {
+    "destination_iata": "FRSTH",
+    "destination": "CALAIS FRETHUN",
+    "count(*)": 129
+  },
+  {
+    "destination_iata": "FRSUF",
+    "destination": "MONTPELLIER SUD DE FRANCE",
+    "count(*)": 1628
+  },
+  {
+    "destination_iata": "FRSVC",
+    "destination": "SEVERAC LE CHATEAU",
+    "count(*)": 678
+  },
+  {
+    "destination_iata": "FRSZE",
+    "destination": "SAINCAIZE",
+    "count(*)": 54
+  },
+  {
+    "destination_iata": "FRTGO",
+    "destination": "FUTUROSCOPE",
+    "count(*)": 346
+  },
+  {
+    "destination_iata": "FRTHP",
+    "destination": "TGV HAUTE PICARDIE",
+    "count(*)": 1832
+  },
+  {
+    "destination_iata": "FRTJA",
+    "destination": "BELFORT MONTBELIARD TGV",
+    "count(*)": 3580
+  },
+  {
+    "destination_iata": "FRTJB",
+    "destination": "BESANCON FRANCHE COMTE TGV",
+    "count(*)": 3342
+  },
+  {
+    "destination_iata": "FRTLN",
+    "destination": "TOULON",
+    "count(*)": 1949
+  },
+  {
+    "destination_iata": "FRTOL",
+    "destination": "TOUL",
+    "count(*)": 346
+  },
+  {
+    "destination_iata": "FRUIP",
+    "destination": "QUIMPER",
+    "count(*)": 1416
+  },
+  {
+    "destination_iata": "FRURD",
+    "destination": "ROUEN RIVE DROITE",
+    "count(*)": 144
+  },
+  {
+    "destination_iata": "FRVAF",
+    "destination": "VALENCE VILLE",
+    "count(*)": 412
+  },
+  {
+    "destination_iata": "FRVDY",
+    "destination": "VEYNES DEVOLUY",
+    "count(*)": 14
+  },
+  {
+    "destination_iata": "FRVHY",
+    "destination": "VICHY",
+    "count(*)": 1053
+  },
+  {
+    "destination_iata": "FRVLA",
+    "destination": "VALENCE TGV AUVERGNE RHONE ALPES",
+    "count(*)": 5744
+  },
+  {
+    "destination_iata": "FRVNE",
+    "destination": "VANNES",
+    "count(*)": 1522
+  },
+  {
+    "destination_iata": "FRVZD",
+    "destination": "VIVIEZ DECAZEVILLE",
+    "count(*)": 30
+  },
+  {
+    "destination_iata": "FRXAC",
+    "destination": "ARCACHON",
+    "count(*)": 128
+  },
+  {
+    "destination_iata": "FRXAG",
+    "destination": "AGDE",
+    "count(*)": 870
+  },
+  {
+    "destination_iata": "FRXAI",
+    "destination": "AIX LES BAINS LE REVARD",
+    "count(*)": 613
+  },
+  {
+    "destination_iata": "FRXAT",
+    "destination": "ANTIBES",
+    "count(*)": 1558
+  },
+  {
+    "destination_iata": "FRXAV",
+    "destination": "ALBERTVILLE",
+    "count(*)": 6
+  },
+  {
+    "destination_iata": "FRXBC",
+    "destination": "BRIANCON",
+    "count(*)": 39
+  },
+  {
+    "destination_iata": "FRXBD",
+    "destination": "BAR LE DUC",
+    "count(*)": 432
+  },
+  {
+    "destination_iata": "FRXBF",
+    "destination": "BELLEGARDE SUR VALSERINE GARE",
+    "count(*)": 806
+  },
+  {
+    "destination_iata": "FRXBH",
+    "destination": "BETHUNE",
+    "count(*)": 98
+  },
+  {
+    "destination_iata": "FRXBK",
+    "destination": "BOURG EN BRESSE",
+    "count(*)": 747
+  },
+  {
+    "destination_iata": "FRXBU",
+    "destination": "BANYULS SUR MER",
+    "count(*)": 9
+  },
+  {
+    "destination_iata": "FRXBV",
+    "destination": "BEAUNE",
+    "count(*)": 854
+  },
+  {
+    "destination_iata": "FRXBY",
+    "destination": "BAYONNE",
+    "count(*)": 1547
+  },
+  {
+    "destination_iata": "FRXCC",
+    "destination": "LE CREUSOT MONTCEAU MONTCHANIN",
+    "count(*)": 682
+  },
+  {
+    "destination_iata": "FRXCD",
+    "destination": "CHALON SUR SAONE",
+    "count(*)": 1274
+  },
+  {
+    "destination_iata": "FRXCE",
+    "destination": "CERBERE",
+    "count(*)": 9
+  },
+  {
+    "destination_iata": "FRXCR",
+    "destination": "CHALONS EN CHAMPAGNE",
+    "count(*)": 104
+  },
+  {
+    "destination_iata": "FRXCU",
+    "destination": "COLLIOURE",
+    "count(*)": 9
+  },
+  {
+    "destination_iata": "FRXCX",
+    "destination": "CHATELLERAULT",
+    "count(*)": 757
+  },
+  {
+    "destination_iata": "FRXCZ",
+    "destination": "CHARLEVILLE MEZIERES",
+    "count(*)": 253
+  },
+  {
+    "destination_iata": "FRXDN",
+    "destination": "DOUAI",
+    "count(*)": 398
+  },
+  {
+    "destination_iata": "FRXEB",
+    "destination": "EVIAN LES BAINS",
+    "count(*)": 20
+  },
+  {
+    "destination_iata": "FRXFX",
+    "destination": "FOIX",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRXHE",
+    "destination": "HYERES",
+    "count(*)": 66
+  },
+  {
+    "destination_iata": "FRXJZ",
+    "destination": "ST JEAN DE LUZ CIBOURE",
+    "count(*)": 1113
+  },
+  {
+    "destination_iata": "FRXLD",
+    "destination": "LANDERNEAU",
+    "count(*)": 243
+  },
+  {
+    "destination_iata": "FRXLE",
+    "destination": "LENS",
+    "count(*)": 118
+  },
+  {
+    "destination_iata": "FRXLR",
+    "destination": "LIBOURNE",
+    "count(*)": 284
+  },
+  {
+    "destination_iata": "FRXLT",
+    "destination": "AX LES THERMES",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRXMK",
+    "destination": "MONTELIMAR GARE SNCF",
+    "count(*)": 406
+  },
+  {
+    "destination_iata": "FRXMR",
+    "destination": "MARMANDE",
+    "count(*)": 432
+  },
+  {
+    "destination_iata": "FRXMU",
+    "destination": "MOULINS SUR ALLIER",
+    "count(*)": 2043
+  },
+  {
+    "destination_iata": "FRXMW",
+    "destination": "MONTAUBAN VILLE BOURBON",
+    "count(*)": 2526
+  },
+  {
+    "destination_iata": "FRXNA",
+    "destination": "NARBONNE",
+    "count(*)": 3763
+  },
+  {
+    "destination_iata": "FRXOG",
+    "destination": "ORANGE",
+    "count(*)": 403
+  },
+  {
+    "destination_iata": "FRXPV",
+    "destination": "PORT VENDRES VILLE",
+    "count(*)": 9
+  },
+  {
+    "destination_iata": "FRXRN",
+    "destination": "REDON",
+    "count(*)": 755
+  },
+  {
+    "destination_iata": "FRXRO",
+    "destination": "LA ROCHE SUR YON",
+    "count(*)": 1157
+  },
+  {
+    "destination_iata": "FRXRS",
+    "destination": "LES ARCS DRAGUIGNAN",
+    "count(*)": 1101
+  },
+  {
+    "destination_iata": "FRXSB",
+    "destination": "ST MALO",
+    "count(*)": 430
+  },
+  {
+    "destination_iata": "FRXSH",
+    "destination": "ST PIERRE DES CORPS",
+    "count(*)": 4705
+  },
+  {
+    "destination_iata": "FRXSJ",
+    "destination": "SAINT QUENTIN",
+    "count(*)": 93
+  },
+  {
+    "destination_iata": "FRXSK",
+    "destination": "ST RAPHAEL VALESCURE",
+    "count(*)": 1556
+  },
+  {
+    "destination_iata": "FRXSQ",
+    "destination": "SELESTAT",
+    "count(*)": 92
+  },
+  {
+    "destination_iata": "FRXST",
+    "destination": "SAINTES",
+    "count(*)": 828
+  },
+  {
+    "destination_iata": "FRXSW",
+    "destination": "SEDAN",
+    "count(*)": 208
+  },
+  {
+    "destination_iata": "FRXSY",
+    "destination": "SETE",
+    "count(*)": 1805
+  },
+  {
+    "destination_iata": "FRXTB",
+    "destination": "TARBES",
+    "count(*)": 1396
+  },
+  {
+    "destination_iata": "FRXTD",
+    "destination": "ST DIE",
+    "count(*)": 120
+  },
+  {
+    "destination_iata": "FRXTE",
+    "destination": "LATOUR DE CAROL ENVEITG",
+    "count(*)": 10
+  },
+  {
+    "destination_iata": "FRXTH",
+    "destination": "THIONVILLE",
+    "count(*)": 1274
+  },
+  {
+    "destination_iata": "FRXTS",
+    "destination": "THONON LES BAINS",
+    "count(*)": 25
+  },
+  {
+    "destination_iata": "FRXUY",
+    "destination": "AURAY",
+    "count(*)": 1225
+  },
+  {
+    "destination_iata": "FRXVN",
+    "destination": "VERDUN",
+    "count(*)": 656
+  },
+  {
+    "destination_iata": "FRXVS",
+    "destination": "VALENCIENNES",
+    "count(*)": 119
+  },
+  {
+    "destination_iata": "FRXVT",
+    "destination": "VITRE",
+    "count(*)": 186
+  },
+  {
+    "destination_iata": "FRXVZ",
+    "destination": "VIERZON",
+    "count(*)": 3118
+  },
+  {
+    "destination_iata": "FRXYT",
+    "destination": "TOULOUSE MATABIAU",
+    "count(*)": 4465
+  },
+  {
+    "destination_iata": "FRXZP",
+    "destination": "NIMES PONT DU GARD",
+    "count(*)": 1733
+  },
+  {
+    "destination_iata": "FRZAO",
+    "destination": "CAHORS",
+    "count(*)": 1317
+  },
+  {
+    "destination_iata": "ITBGD",
+    "destination": "TORINO PORTA NUOVA",
+    "count(*)": 13
+  },
+  {
+    "destination_iata": "ITMPG",
+    "destination": "MILANO PORTA GARIBALDI",
+    "count(*)": 558
+  },
+  {
+    "destination_iata": "ITOCS",
+    "destination": "OUX CESANA CLAV SESTRIERE",
+    "count(*)": 563
+  },
+  {
+    "destination_iata": "ITTRS",
+    "destination": "TORINO PORTA SUSA",
+    "count(*)": 550
+  },
+  {
+    "destination_iata": "LULUX",
+    "destination": "LUXEMBOURG",
+    "count(*)": 1306
+  }
+]

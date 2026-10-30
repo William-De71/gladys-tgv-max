@@ -1,0 +1,1251 @@
+{
+  "manifest_version": 1,
+  "type": "device",
+  "name": "TGV MAX",
+  "description": {
+    "en": "MAX JEUNE and MAX SENIOR seats on your SNCF routes, and an alert when seats open.",
+    "fr": "Places MAX JEUNE et MAX SENIOR sur vos trajets SNCF, et alerte quand des places s’ouvrent.",
+    "de": "MAX-JEUNE- und MAX-SENIOR-Plätze auf Ihren SNCF-Strecken, mit Alarm bei neuen Plätzen.",
+    "es": "Plazas MAX JEUNE y MAX SENIOR en sus trayectos SNCF, y aviso cuando se abren plazas."
+  },
+  "version": "0.1.0",
+  "docker_image": "ghcr.io/william-de71/gladys-tgv-max:0.1.0",
+  "gladys_version": ">=5.3.0",
+  "categories": ["transport"],
+  "keywords": [
+    "tgvmax",
+    "max jeune",
+    "max senior",
+    "sncf",
+    "tgv inoui",
+    "intercités",
+    "train",
+    "abonnement",
+    "sncf connect",
+    "trajet"
+  ],
+  "countries": ["FR"],
+  "cover_image": "https://raw.githubusercontent.com/William-De71/gladys-tgv-max/main/cover.jpg",
+  "transports": ["cloud"],
+  "config_schema": [
+    {
+      "key": "intro",
+      "type": "section",
+      "label": {
+        "en": "SNCF open data",
+        "fr": "Open data SNCF",
+        "de": "SNCF Open Data",
+        "es": "Datos abiertos de SNCF"
+      },
+      "description": {
+        "en": "MAX JEUNE (16-27) and MAX SENIOR (60+) are the unlimited subscriptions of SNCF on TGV INOUI and Intercités with reservation. This integration reads the official open data of SNCF Voyageurs: the trains with MAX seats open, 30 days ahead, rebuilt every morning. No account, no key.\n\n1. Press \"Add a route\" (Paris → Lyon, Fridays from 17:00…).\n2. Add its device in the Discovery tab.\n3. Use the \"New MAX seats\" scene trigger to be told, and the widgets on the dashboard.\n\nThe data dates from the morning: book on SNCF Connect, where seats are live.",
+        "fr": "MAX JEUNE (16-27 ans) et MAX SENIOR (60 ans et plus) sont les abonnements illimités de SNCF sur les TGV INOUI et les Intercités à réservation. Cette intégration lit l’open data officiel de SNCF Voyageurs : les trains avec des places MAX ouvertes, à 30 jours, mis à jour chaque matin. Ni compte ni clé.\n\n1. Appuyez sur « Ajouter un trajet » (Paris → Lyon, le vendredi à partir de 17 h…).\n2. Ajoutez son appareil dans l’onglet Découverte.\n3. Utilisez le déclencheur de scène « Nouvelles places MAX » pour être prévenu, et les widgets sur le tableau de bord.\n\nLes données datent du matin : réservez sur SNCF Connect, où les places sont en direct.",
+        "de": "MAX JEUNE (16-27) und MAX SENIOR (60+) sind die unbegrenzten Abonnements der SNCF für TGV INOUI und reservierungspflichtige Intercités. Diese Integration liest die offiziellen Open Data von SNCF Voyageurs: die Züge mit freien MAX-Plätzen, 30 Tage im Voraus, jeden Morgen neu erstellt. Kein Konto, kein Schlüssel.\n\n1. Drücken Sie „Strecke hinzufügen“ (Paris → Lyon, freitags ab 17 Uhr…).\n2. Fügen Sie ihr Gerät im Tab Erkennung hinzu.\n3. Nutzen Sie den Szenen-Auslöser „Neue MAX-Plätze“ für Benachrichtigungen und die Widgets auf dem Dashboard.\n\nDie Daten stammen vom Morgen: Buchen Sie auf SNCF Connect, wo die Plätze live sind.",
+        "es": "MAX JEUNE (16-27 años) y MAX SENIOR (60 o más) son los abonos ilimitados de SNCF en los TGV INOUI y los Intercités con reserva. Esta integración lee los datos abiertos oficiales de SNCF Voyageurs: los trenes con plazas MAX abiertas, con 30 días de antelación, actualizados cada mañana. Sin cuenta ni clave.\n\n1. Pulse «Añadir un trayecto» (Paris → Lyon, los viernes desde las 17:00…).\n2. Añada su dispositivo en la pestaña Descubrimiento.\n3. Use el disparador de escena «Nuevas plazas MAX» para recibir avisos, y los widgets en el panel.\n\nLos datos son de la mañana: reserve en SNCF Connect, donde las plazas están en directo."
+      }
+    },
+    {
+      "key": "language",
+      "type": "select",
+      "default": "auto",
+      "label": {
+        "en": "Language of the texts",
+        "fr": "Langue des textes",
+        "de": "Sprache der Texte",
+        "es": "Idioma de los textos"
+      },
+      "description": {
+        "en": "Device names, the next train and scene summaries. Automatic: the language of the dashboard.",
+        "fr": "Noms des appareils, prochain train et résumés des scènes. Automatique : la langue du tableau de bord.",
+        "de": "Gerätenamen, nächster Zug und Szenen-Zusammenfassungen. Automatisch: die Sprache des Dashboards.",
+        "es": "Nombres de los dispositivos, próximo tren y resúmenes de escenas. Automático: el idioma del panel."
+      },
+      "options": [
+        {
+          "value": "auto",
+          "label": {
+            "en": "Automatic",
+            "fr": "Automatique",
+            "de": "Automatisch",
+            "es": "Automático"
+          }
+        },
+        {
+          "value": "en",
+          "label": {
+            "en": "English",
+            "fr": "English",
+            "de": "English",
+            "es": "English"
+          }
+        },
+        {
+          "value": "fr",
+          "label": {
+            "en": "Français",
+            "fr": "Français",
+            "de": "Français",
+            "es": "Français"
+          }
+        },
+        {
+          "value": "de",
+          "label": {
+            "en": "Deutsch",
+            "fr": "Deutsch",
+            "de": "Deutsch",
+            "es": "Deutsch"
+          }
+        },
+        {
+          "value": "es",
+          "label": {
+            "en": "Español",
+            "fr": "Español",
+            "de": "Español",
+            "es": "Español"
+          }
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "key": "test_connection",
+      "label": {
+        "en": "Test the connection",
+        "fr": "Tester la connexion",
+        "de": "Verbindung testen",
+        "es": "Probar la conexión"
+      },
+      "timeout_seconds": 60
+    },
+    {
+      "key": "find_station",
+      "label": {
+        "en": "Find a station",
+        "fr": "Chercher une gare",
+        "de": "Bahnhof suchen",
+        "es": "Buscar una estación"
+      },
+      "timeout_seconds": 60,
+      "fields": [
+        {
+          "key": "query",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Name",
+            "fr": "Nom",
+            "de": "Name",
+            "es": "Nombre"
+          },
+          "placeholder": {
+            "en": "Marseille",
+            "fr": "Marseille",
+            "de": "Marseille",
+            "es": "Marseille"
+          }
+        }
+      ]
+    },
+    {
+      "key": "add_route",
+      "label": {
+        "en": "Add a route",
+        "fr": "Ajouter un trajet",
+        "de": "Strecke hinzufügen",
+        "es": "Añadir un trayecto"
+      },
+      "timeout_seconds": 90,
+      "fields": [
+        {
+          "key": "origin",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Departure station",
+            "fr": "Gare de départ",
+            "de": "Abfahrtsbahnhof",
+            "es": "Estación de salida"
+          },
+          "placeholder": {
+            "en": "Paris",
+            "fr": "Paris",
+            "de": "Paris",
+            "es": "Paris"
+          },
+          "description": {
+            "en": "A city (\"Paris\", \"Lyon\": every station of the city) or a station (\"Aix en Provence TGV\").",
+            "fr": "Une ville (« Paris », « Lyon » : toutes les gares de la ville) ou une gare (« Aix en Provence TGV »).",
+            "de": "Eine Stadt („Paris“, „Lyon“: alle Bahnhöfe der Stadt) oder ein Bahnhof („Aix en Provence TGV“).",
+            "es": "Una ciudad («Paris», «Lyon»: todas las estaciones de la ciudad) o una estación («Aix en Provence TGV»)."
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Arrival station",
+            "fr": "Gare d’arrivée",
+            "de": "Ankunftsbahnhof",
+            "es": "Estación de llegada"
+          },
+          "placeholder": {
+            "en": "Lyon",
+            "fr": "Lyon",
+            "de": "Lyon",
+            "es": "Lyon"
+          }
+        },
+        {
+          "key": "days",
+          "type": "select",
+          "default": "all",
+          "label": {
+            "en": "Days",
+            "fr": "Jours",
+            "de": "Tage",
+            "es": "Días"
+          },
+          "options": [
+            {
+              "value": "all",
+              "label": {
+                "en": "Every day",
+                "fr": "Tous les jours",
+                "de": "Täglich",
+                "es": "Todos los días"
+              }
+            },
+            {
+              "value": "weekdays",
+              "label": {
+                "en": "Monday to Friday",
+                "fr": "Du lundi au vendredi",
+                "de": "Montag bis Freitag",
+                "es": "De lunes a viernes"
+              }
+            },
+            {
+              "value": "weekend",
+              "label": {
+                "en": "Weekends (Saturday, Sunday)",
+                "fr": "Week-end (samedi, dimanche)",
+                "de": "Wochenende (Samstag, Sonntag)",
+                "es": "Fin de semana (sábado, domingo)"
+              }
+            },
+            {
+              "value": "fri_sun",
+              "label": {
+                "en": "Friday to Sunday",
+                "fr": "Du vendredi au dimanche",
+                "de": "Freitag bis Sonntag",
+                "es": "De viernes a domingo"
+              }
+            },
+            {
+              "value": "mon",
+              "label": {
+                "en": "Mondays",
+                "fr": "Le lundi",
+                "de": "Montags",
+                "es": "Los lunes"
+              }
+            },
+            {
+              "value": "tue",
+              "label": {
+                "en": "Tuesdays",
+                "fr": "Le mardi",
+                "de": "Dienstags",
+                "es": "Los martes"
+              }
+            },
+            {
+              "value": "wed",
+              "label": {
+                "en": "Wednesdays",
+                "fr": "Le mercredi",
+                "de": "Mittwochs",
+                "es": "Los miércoles"
+              }
+            },
+            {
+              "value": "thu",
+              "label": {
+                "en": "Thursdays",
+                "fr": "Le jeudi",
+                "de": "Donnerstags",
+                "es": "Los jueves"
+              }
+            },
+            {
+              "value": "fri",
+              "label": {
+                "en": "Fridays",
+                "fr": "Le vendredi",
+                "de": "Freitags",
+                "es": "Los viernes"
+              }
+            },
+            {
+              "value": "sat",
+              "label": {
+                "en": "Saturdays",
+                "fr": "Le samedi",
+                "de": "Samstags",
+                "es": "Los sábados"
+              }
+            },
+            {
+              "value": "sun",
+              "label": {
+                "en": "Sundays",
+                "fr": "Le dimanche",
+                "de": "Sonntags",
+                "es": "Los domingos"
+              }
+            }
+          ]
+        },
+        {
+          "key": "dates",
+          "type": "string",
+          "label": {
+            "en": "Dates (replace the days)",
+            "fr": "Dates (remplacent les jours)",
+            "de": "Daten (ersetzen die Tage)",
+            "es": "Fechas (sustituyen a los días)"
+          },
+          "placeholder": {
+            "en": "06/11, 08/11",
+            "fr": "06/11, 08/11",
+            "de": "06/11, 08/11",
+            "es": "06/11, 08/11"
+          },
+          "description": {
+            "en": "Optional: up to 10 dates, day first (06/11, 06/11/2026), separated by commas.",
+            "fr": "Facultatif : jusqu’à 10 dates, le jour d’abord (06/11, 06/11/2026), séparées par des virgules.",
+            "de": "Optional: bis zu 10 Daten, Tag zuerst (06/11, 06/11/2026), durch Kommas getrennt.",
+            "es": "Opcional: hasta 10 fechas, el día primero (06/11, 06/11/2026), separadas por comas."
+          }
+        },
+        {
+          "key": "depart_after",
+          "type": "number",
+          "min": 0,
+          "max": 23,
+          "default": 0,
+          "label": {
+            "en": "Leaving from (hour)",
+            "fr": "Départ à partir de (heure)",
+            "de": "Abfahrt ab (Uhr)",
+            "es": "Salida a partir de (hora)"
+          }
+        },
+        {
+          "key": "depart_before",
+          "type": "number",
+          "min": 1,
+          "max": 24,
+          "default": 24,
+          "label": {
+            "en": "Leaving before (hour)",
+            "fr": "Départ avant (heure)",
+            "de": "Abfahrt vor (Uhr)",
+            "es": "Salida antes de (hora)"
+          }
+        },
+        {
+          "key": "return_trip",
+          "type": "boolean",
+          "default": false,
+          "label": {
+            "en": "Also follow the return trip",
+            "fr": "Suivre aussi le retour",
+            "de": "Auch die Rückfahrt verfolgen",
+            "es": "Seguir también la vuelta"
+          }
+        }
+      ]
+    },
+    {
+      "key": "edit_route",
+      "label": {
+        "en": "Edit a route",
+        "fr": "Modifier un trajet",
+        "de": "Strecke bearbeiten",
+        "es": "Modificar un trayecto"
+      },
+      "timeout_seconds": 60,
+      "fields": [
+        {
+          "key": "route",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          },
+          "placeholder": {
+            "en": "2, or paris lyon",
+            "fr": "2, ou paris lyon",
+            "de": "2 oder paris lyon",
+            "es": "2, o paris lyon"
+          },
+          "description": {
+            "en": "Its number in \"List the routes\", or the words of its stations.",
+            "fr": "Son numéro dans « Lister les trajets », ou les mots de ses gares.",
+            "de": "Ihre Nummer in „Strecken auflisten“ oder die Wörter ihrer Bahnhöfe.",
+            "es": "Su número en «Listar los trayectos», o las palabras de sus estaciones."
+          }
+        },
+        {
+          "key": "days",
+          "type": "select",
+          "default": "keep",
+          "label": {
+            "en": "Days",
+            "fr": "Jours",
+            "de": "Tage",
+            "es": "Días"
+          },
+          "options": [
+            {
+              "value": "keep",
+              "label": {
+                "en": "Keep",
+                "fr": "Ne pas changer",
+                "de": "Beibehalten",
+                "es": "No cambiar"
+              }
+            },
+            {
+              "value": "all",
+              "label": {
+                "en": "Every day",
+                "fr": "Tous les jours",
+                "de": "Täglich",
+                "es": "Todos los días"
+              }
+            },
+            {
+              "value": "weekdays",
+              "label": {
+                "en": "Monday to Friday",
+                "fr": "Du lundi au vendredi",
+                "de": "Montag bis Freitag",
+                "es": "De lunes a viernes"
+              }
+            },
+            {
+              "value": "weekend",
+              "label": {
+                "en": "Weekends (Saturday, Sunday)",
+                "fr": "Week-end (samedi, dimanche)",
+                "de": "Wochenende (Samstag, Sonntag)",
+                "es": "Fin de semana (sábado, domingo)"
+              }
+            },
+            {
+              "value": "fri_sun",
+              "label": {
+                "en": "Friday to Sunday",
+                "fr": "Du vendredi au dimanche",
+                "de": "Freitag bis Sonntag",
+                "es": "De viernes a domingo"
+              }
+            },
+            {
+              "value": "mon",
+              "label": {
+                "en": "Mondays",
+                "fr": "Le lundi",
+                "de": "Montags",
+                "es": "Los lunes"
+              }
+            },
+            {
+              "value": "tue",
+              "label": {
+                "en": "Tuesdays",
+                "fr": "Le mardi",
+                "de": "Dienstags",
+                "es": "Los martes"
+              }
+            },
+            {
+              "value": "wed",
+              "label": {
+                "en": "Wednesdays",
+                "fr": "Le mercredi",
+                "de": "Mittwochs",
+                "es": "Los miércoles"
+              }
+            },
+            {
+              "value": "thu",
+              "label": {
+                "en": "Thursdays",
+                "fr": "Le jeudi",
+                "de": "Donnerstags",
+                "es": "Los jueves"
+              }
+            },
+            {
+              "value": "fri",
+              "label": {
+                "en": "Fridays",
+                "fr": "Le vendredi",
+                "de": "Freitags",
+                "es": "Los viernes"
+              }
+            },
+            {
+              "value": "sat",
+              "label": {
+                "en": "Saturdays",
+                "fr": "Le samedi",
+                "de": "Samstags",
+                "es": "Los sábados"
+              }
+            },
+            {
+              "value": "sun",
+              "label": {
+                "en": "Sundays",
+                "fr": "Le dimanche",
+                "de": "Sonntags",
+                "es": "Los domingos"
+              }
+            }
+          ]
+        },
+        {
+          "key": "dates",
+          "type": "string",
+          "label": {
+            "en": "Dates (replace the days)",
+            "fr": "Dates (remplacent les jours)",
+            "de": "Daten (ersetzen die Tage)",
+            "es": "Fechas (sustituyen a los días)"
+          },
+          "placeholder": {
+            "en": "06/11, 08/11",
+            "fr": "06/11, 08/11",
+            "de": "06/11, 08/11",
+            "es": "06/11, 08/11"
+          },
+          "description": {
+            "en": "Empty: unchanged. \"-\": no more dates (back to the days).",
+            "fr": "Vide : inchangé. « - » : plus de dates (retour aux jours).",
+            "de": "Leer: unverändert. „-“: keine Daten mehr (zurück zu den Tagen).",
+            "es": "Vacío: sin cambios. «-»: sin fechas (vuelta a los días)."
+          }
+        },
+        {
+          "key": "depart_after",
+          "type": "number",
+          "min": 0,
+          "max": 23,
+          "label": {
+            "en": "Leaving from (hour)",
+            "fr": "Départ à partir de (heure)",
+            "de": "Abfahrt ab (Uhr)",
+            "es": "Salida a partir de (hora)"
+          }
+        },
+        {
+          "key": "depart_before",
+          "type": "number",
+          "min": 1,
+          "max": 24,
+          "label": {
+            "en": "Leaving before (hour)",
+            "fr": "Départ avant (heure)",
+            "de": "Abfahrt vor (Uhr)",
+            "es": "Salida antes de (hora)"
+          }
+        }
+      ]
+    },
+    {
+      "key": "remove_route",
+      "label": {
+        "en": "Remove a route",
+        "fr": "Supprimer un trajet",
+        "de": "Strecke entfernen",
+        "es": "Eliminar un trayecto"
+      },
+      "timeout_seconds": 30,
+      "fields": [
+        {
+          "key": "route",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          },
+          "placeholder": {
+            "en": "2, or paris lyon",
+            "fr": "2, ou paris lyon",
+            "de": "2 oder paris lyon",
+            "es": "2, o paris lyon"
+          },
+          "description": {
+            "en": "Its number in \"List the routes\", or the words of its stations.",
+            "fr": "Son numéro dans « Lister les trajets », ou les mots de ses gares.",
+            "de": "Ihre Nummer in „Strecken auflisten“ oder die Wörter ihrer Bahnhöfe.",
+            "es": "Su número en «Listar los trayectos», o las palabras de sus estaciones."
+          }
+        }
+      ]
+    },
+    {
+      "key": "list_routes",
+      "label": {
+        "en": "List the routes",
+        "fr": "Lister les trajets",
+        "de": "Strecken auflisten",
+        "es": "Listar los trayectos"
+      },
+      "timeout_seconds": 30
+    }
+  ],
+  "scene_triggers": [
+    {
+      "key": "new_seats",
+      "label": {
+        "en": "New MAX seats",
+        "fr": "Nouvelles places MAX",
+        "de": "Neue MAX-Plätze",
+        "es": "Nuevas plazas MAX"
+      },
+      "description": {
+        "en": "MAX seats opened on trains of a followed route (checked every morning).",
+        "fr": "Des places MAX se sont ouvertes sur des trains d’un trajet suivi (vérifié chaque matin).",
+        "de": "Auf Zügen einer verfolgten Strecke wurden MAX-Plätze frei (jeden Morgen geprüft).",
+        "es": "Se abrieron plazas MAX en trenes de un trayecto seguido (comprobado cada mañana)."
+      },
+      "fields": [
+        {
+          "key": "route",
+          "type": "select",
+          "source": "devices",
+          "required": false,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        }
+      ],
+      "variables": [
+        {
+          "key": "route_name",
+          "type": "string",
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        },
+        {
+          "key": "origin",
+          "type": "string",
+          "label": {
+            "en": "Departure station",
+            "fr": "Gare de départ",
+            "de": "Abfahrtsbahnhof",
+            "es": "Estación de salida"
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "label": {
+            "en": "Arrival station",
+            "fr": "Gare d’arrivée",
+            "de": "Ankunftsbahnhof",
+            "es": "Estación de llegada"
+          }
+        },
+        {
+          "key": "count",
+          "type": "number",
+          "label": {
+            "en": "Trains that opened",
+            "fr": "Trains ouverts",
+            "de": "Freigegebene Züge",
+            "es": "Trenes abiertos"
+          }
+        },
+        {
+          "key": "first_date",
+          "type": "string",
+          "label": {
+            "en": "Date of the first one (YYYY-MM-DD)",
+            "fr": "Date du premier (AAAA-MM-JJ)",
+            "de": "Datum des ersten (JJJJ-MM-TT)",
+            "es": "Fecha del primero (AAAA-MM-DD)"
+          }
+        },
+        {
+          "key": "first_date_text",
+          "type": "string",
+          "label": {
+            "en": "Date of the first one, in words",
+            "fr": "Date du premier, en toutes lettres",
+            "de": "Datum des ersten, ausgeschrieben",
+            "es": "Fecha del primero, en letras"
+          }
+        },
+        {
+          "key": "first_departure",
+          "type": "string",
+          "label": {
+            "en": "Its departure time",
+            "fr": "Son heure de départ",
+            "de": "Seine Abfahrtszeit",
+            "es": "Su hora de salida"
+          }
+        },
+        {
+          "key": "first_arrival",
+          "type": "string",
+          "label": {
+            "en": "Its arrival time",
+            "fr": "Son heure d’arrivée",
+            "de": "Seine Ankunftszeit",
+            "es": "Su hora de llegada"
+          }
+        },
+        {
+          "key": "first_train",
+          "type": "string",
+          "label": {
+            "en": "Its train number",
+            "fr": "Son numéro de train",
+            "de": "Seine Zugnummer",
+            "es": "Su número de tren"
+          }
+        },
+        {
+          "key": "days_until",
+          "type": "number",
+          "label": {
+            "en": "Days until it",
+            "fr": "Jours avant le départ",
+            "de": "Tage bis zur Abfahrt",
+            "es": "Días hasta la salida"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary (the trains, one per line)",
+            "fr": "Résumé (les trains, un par ligne)",
+            "de": "Zusammenfassung (die Züge, einer pro Zeile)",
+            "es": "Resumen (los trenes, uno por línea)"
+          }
+        }
+      ]
+    },
+    {
+      "key": "sold_out",
+      "label": {
+        "en": "No more MAX seats",
+        "fr": "Plus de places MAX",
+        "de": "Keine MAX-Plätze mehr",
+        "es": "Sin plazas MAX"
+      },
+      "description": {
+        "en": "A followed route had trains with MAX seats and has none left.",
+        "fr": "Un trajet suivi avait des trains avec places MAX et n’en a plus.",
+        "de": "Eine verfolgte Strecke hatte Züge mit MAX-Plätzen und hat keine mehr.",
+        "es": "Un trayecto seguido tenía trenes con plazas MAX y ya no le queda ninguno."
+      },
+      "fields": [
+        {
+          "key": "route",
+          "type": "select",
+          "source": "devices",
+          "required": false,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        }
+      ],
+      "variables": [
+        {
+          "key": "route_name",
+          "type": "string",
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        },
+        {
+          "key": "origin",
+          "type": "string",
+          "label": {
+            "en": "Departure station",
+            "fr": "Gare de départ",
+            "de": "Abfahrtsbahnhof",
+            "es": "Estación de salida"
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "label": {
+            "en": "Arrival station",
+            "fr": "Gare d’arrivée",
+            "de": "Ankunftsbahnhof",
+            "es": "Estación de llegada"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          }
+        }
+      ]
+    }
+  ],
+  "scene_actions": [
+    {
+      "key": "search_seats",
+      "label": {
+        "en": "Search MAX seats",
+        "fr": "Chercher des places MAX",
+        "de": "MAX-Plätze suchen",
+        "es": "Buscar plazas MAX"
+      },
+      "description": {
+        "en": "The trains with MAX seats between two stations on a date (within 30 days).",
+        "fr": "Les trains avec places MAX entre deux gares à une date (dans les 30 jours).",
+        "de": "Die Züge mit MAX-Plätzen zwischen zwei Bahnhöfen an einem Datum (innerhalb von 30 Tagen).",
+        "es": "Los trenes con plazas MAX entre dos estaciones en una fecha (dentro de 30 días)."
+      },
+      "timeout_seconds": 60,
+      "fields": [
+        {
+          "key": "origin",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Departure station",
+            "fr": "Gare de départ",
+            "de": "Abfahrtsbahnhof",
+            "es": "Estación de salida"
+          },
+          "placeholder": {
+            "en": "Paris",
+            "fr": "Paris",
+            "de": "Paris",
+            "es": "Paris"
+          },
+          "description": {
+            "en": "A city (\"Paris\", \"Lyon\": every station of the city) or a station (\"Aix en Provence TGV\").",
+            "fr": "Une ville (« Paris », « Lyon » : toutes les gares de la ville) ou une gare (« Aix en Provence TGV »).",
+            "de": "Eine Stadt („Paris“, „Lyon“: alle Bahnhöfe der Stadt) oder ein Bahnhof („Aix en Provence TGV“).",
+            "es": "Una ciudad («Paris», «Lyon»: todas las estaciones de la ciudad) o una estación («Aix en Provence TGV»)."
+          }
+        },
+        {
+          "key": "destination",
+          "type": "string",
+          "required": true,
+          "label": {
+            "en": "Arrival station",
+            "fr": "Gare d’arrivée",
+            "de": "Ankunftsbahnhof",
+            "es": "Estación de llegada"
+          },
+          "placeholder": {
+            "en": "Lyon",
+            "fr": "Lyon",
+            "de": "Lyon",
+            "es": "Lyon"
+          }
+        },
+        {
+          "key": "date",
+          "type": "string",
+          "default": "today",
+          "label": {
+            "en": "Date",
+            "fr": "Date",
+            "de": "Datum",
+            "es": "Fecha"
+          },
+          "placeholder": {
+            "en": "tomorrow",
+            "fr": "demain",
+            "de": "morgen",
+            "es": "mañana"
+          },
+          "description": {
+            "en": "06/11, 2026-11-06, today, tomorrow or +3 (in three days).",
+            "fr": "06/11, 06/11/2026, aujourd’hui, demain ou +3 (dans trois jours).",
+            "de": "06/11, 06/11/2026, heute, morgen oder +3 (in drei Tagen).",
+            "es": "06/11, 06/11/2026, hoy, mañana o +3 (dentro de tres días)."
+          }
+        },
+        {
+          "key": "depart_after",
+          "type": "number",
+          "min": 0,
+          "max": 23,
+          "default": 0,
+          "label": {
+            "en": "Leaving from (hour)",
+            "fr": "Départ à partir de (heure)",
+            "de": "Abfahrt ab (Uhr)",
+            "es": "Salida a partir de (hora)"
+          }
+        },
+        {
+          "key": "depart_before",
+          "type": "number",
+          "min": 1,
+          "max": 24,
+          "default": 24,
+          "label": {
+            "en": "Leaving before (hour)",
+            "fr": "Départ avant (heure)",
+            "de": "Abfahrt vor (Uhr)",
+            "es": "Salida antes de (hora)"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "key": "found",
+          "type": "boolean",
+          "label": {
+            "en": "Seats found",
+            "fr": "Places trouvées",
+            "de": "Plätze gefunden",
+            "es": "Plazas encontradas"
+          }
+        },
+        {
+          "key": "count",
+          "type": "number",
+          "label": {
+            "en": "Trains with MAX seats",
+            "fr": "Trains avec places MAX",
+            "de": "Züge mit MAX-Plätzen",
+            "es": "Trenes con plazas MAX"
+          }
+        },
+        {
+          "key": "origin_name",
+          "type": "string",
+          "label": {
+            "en": "Departure station",
+            "fr": "Gare de départ",
+            "de": "Abfahrtsbahnhof",
+            "es": "Estación de salida"
+          }
+        },
+        {
+          "key": "destination_name",
+          "type": "string",
+          "label": {
+            "en": "Arrival station",
+            "fr": "Gare d’arrivée",
+            "de": "Ankunftsbahnhof",
+            "es": "Estación de llegada"
+          }
+        },
+        {
+          "key": "date",
+          "type": "string",
+          "label": {
+            "en": "Date (YYYY-MM-DD)",
+            "fr": "Date (AAAA-MM-JJ)",
+            "de": "Datum (JJJJ-MM-TT)",
+            "es": "Fecha (AAAA-MM-DD)"
+          }
+        },
+        {
+          "key": "first_departure",
+          "type": "string",
+          "label": {
+            "en": "Departure of the first one",
+            "fr": "Départ du premier",
+            "de": "Abfahrt des ersten",
+            "es": "Salida del primero"
+          }
+        },
+        {
+          "key": "first_arrival",
+          "type": "string",
+          "label": {
+            "en": "Arrival of the first one",
+            "fr": "Arrivée du premier",
+            "de": "Ankunft des ersten",
+            "es": "Llegada del primero"
+          }
+        },
+        {
+          "key": "first_train",
+          "type": "string",
+          "label": {
+            "en": "Train number of the first one",
+            "fr": "Numéro du premier train",
+            "de": "Zugnummer des ersten",
+            "es": "Número del primer tren"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          }
+        }
+      ]
+    },
+    {
+      "key": "get_route",
+      "label": {
+        "en": "Read a followed route",
+        "fr": "Lire un trajet suivi",
+        "de": "Verfolgte Strecke lesen",
+        "es": "Leer un trayecto seguido"
+      },
+      "description": {
+        "en": "The trains with MAX seats of a followed route, over 30 days.",
+        "fr": "Les trains avec places MAX d’un trajet suivi, sur 30 jours.",
+        "de": "Die Züge mit MAX-Plätzen einer verfolgten Strecke, über 30 Tage.",
+        "es": "Los trenes con plazas MAX de un trayecto seguido, en 30 días."
+      },
+      "timeout_seconds": 60,
+      "fields": [
+        {
+          "key": "route",
+          "type": "select",
+          "source": "devices",
+          "required": true,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "key": "found",
+          "type": "boolean",
+          "label": {
+            "en": "Seats found",
+            "fr": "Places trouvées",
+            "de": "Plätze gefunden",
+            "es": "Plazas encontradas"
+          }
+        },
+        {
+          "key": "count",
+          "type": "number",
+          "label": {
+            "en": "Trains with MAX seats",
+            "fr": "Trains avec places MAX",
+            "de": "Züge mit MAX-Plätzen",
+            "es": "Trenes con plazas MAX"
+          }
+        },
+        {
+          "key": "days",
+          "type": "number",
+          "label": {
+            "en": "Days with MAX seats",
+            "fr": "Jours avec places MAX",
+            "de": "Tage mit MAX-Plätzen",
+            "es": "Días con plazas MAX"
+          }
+        },
+        {
+          "key": "next_date",
+          "type": "string",
+          "label": {
+            "en": "Date of the next one (YYYY-MM-DD)",
+            "fr": "Date du prochain (AAAA-MM-JJ)",
+            "de": "Datum des nächsten (JJJJ-MM-TT)",
+            "es": "Fecha del próximo (AAAA-MM-DD)"
+          }
+        },
+        {
+          "key": "next_date_text",
+          "type": "string",
+          "label": {
+            "en": "Date of the next one, in words",
+            "fr": "Date du prochain, en toutes lettres",
+            "de": "Datum des nächsten, ausgeschrieben",
+            "es": "Fecha del próximo, en letras"
+          }
+        },
+        {
+          "key": "next_departure",
+          "type": "string",
+          "label": {
+            "en": "Its departure time",
+            "fr": "Son heure de départ",
+            "de": "Seine Abfahrtszeit",
+            "es": "Su hora de salida"
+          }
+        },
+        {
+          "key": "next_arrival",
+          "type": "string",
+          "label": {
+            "en": "Its arrival time",
+            "fr": "Son heure d’arrivée",
+            "de": "Seine Ankunftszeit",
+            "es": "Su hora de llegada"
+          }
+        },
+        {
+          "key": "next_train",
+          "type": "string",
+          "label": {
+            "en": "Its train number",
+            "fr": "Son numéro de train",
+            "de": "Seine Zugnummer",
+            "es": "Su número de tren"
+          }
+        },
+        {
+          "key": "summary",
+          "type": "string",
+          "label": {
+            "en": "Summary",
+            "fr": "Résumé",
+            "de": "Zusammenfassung",
+            "es": "Resumen"
+          }
+        }
+      ]
+    }
+  ],
+  "widgets": [
+    {
+      "key": "trains",
+      "icon": "navigation",
+      "label": {
+        "en": "MAX trains",
+        "fr": "Trains MAX",
+        "de": "MAX-Züge",
+        "es": "Trenes MAX"
+      },
+      "description": {
+        "en": "The next trains of a route with MAX seats open.",
+        "fr": "Les prochains trains d’un trajet avec places MAX.",
+        "de": "Die nächsten Züge einer Strecke mit MAX-Plätzen.",
+        "es": "Los próximos trenes de un trayecto con plazas MAX."
+      },
+      "settings": [
+        {
+          "key": "route",
+          "type": "select",
+          "source": "devices",
+          "required": true,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        },
+        {
+          "key": "count",
+          "type": "number",
+          "min": 1,
+          "max": 8,
+          "default": 5,
+          "label": {
+            "en": "Trains shown",
+            "fr": "Trains affichés",
+            "de": "Angezeigte Züge",
+            "es": "Trenes mostrados"
+          }
+        }
+      ]
+    },
+    {
+      "key": "calendar",
+      "icon": "calendar",
+      "label": {
+        "en": "MAX calendar",
+        "fr": "Calendrier MAX",
+        "de": "MAX-Kalender",
+        "es": "Calendario MAX"
+      },
+      "description": {
+        "en": "The trains with MAX seats of each day, over 30 days.",
+        "fr": "Les trains avec places MAX de chaque jour, sur 30 jours.",
+        "de": "Die Züge mit MAX-Plätzen pro Tag, über 30 Tage.",
+        "es": "Los trenes con plazas MAX de cada día, en 30 días."
+      },
+      "settings": [
+        {
+          "key": "route",
+          "type": "select",
+          "source": "devices",
+          "required": true,
+          "label": {
+            "en": "Route",
+            "fr": "Trajet",
+            "de": "Strecke",
+            "es": "Trayecto"
+          }
+        }
+      ]
+    },
+    {
+      "key": "overview",
+      "icon": "list",
+      "label": {
+        "en": "My MAX routes",
+        "fr": "Mes trajets MAX",
+        "de": "Meine MAX-Strecken",
+        "es": "Mis trayectos MAX"
+      },
+      "description": {
+        "en": "Every followed route and its trains with MAX seats.",
+        "fr": "Tous les trajets suivis et leurs trains avec places MAX.",
+        "de": "Alle verfolgten Strecken und ihre Züge mit MAX-Plätzen.",
+        "es": "Todos los trayectos seguidos y sus trenes con plazas MAX."
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+Gladys TGV MAX integration
+Copyright 2026 William Deren
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+The trains and the availability of MAX JEUNE and MAX SENIOR seats come from
+the dataset "Disponibilité à 30 jours de places MAX JEUNE et MAX SENIOR
+ouvertes à la réservation" of SNCF Voyageurs, on the open data portal of SNCF
+(https://ressources.data.sncf.com/explore/dataset/tgvmax/), under the Open
+Database License (ODbL 1.0): https://opendatacommons.org/licenses/odbl/1-0/.
+The widgets show the source (SNCF open data) and the time of the data. The
+files under test/fixtures are extracts of this database, kept under the same
+licence.
+
+MAX JEUNE, MAX SENIOR, TGV INOUI, Intercités and SNCF Connect are trademarks of
+SNCF. This community integration is not affiliated with, endorsed or sponsored
+by SNCF or SNCF Voyageurs.
